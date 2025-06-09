@@ -10,9 +10,6 @@ website:
       - icon: house
         text: "Home"
         file: index.qmd
-      - icon: book
-        text: "Lectures"
-        href: lectures.qmd
 
 format:
   html:
