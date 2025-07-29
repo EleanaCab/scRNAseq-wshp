@@ -11,6 +11,17 @@
     ]
   },
   {
+    "objectID": "course-prereqs.html",
+    "href": "course-prereqs.html",
+    "title": "Course Prerequisites",
+    "section": "",
+    "text": "Please complete the following courses/workshops before FILL_IN_DATE.\n\nSwirl Courses\nThe following Swirl course will teach you the basics of R programming and how to navigate through RStudio.\n\nR Programming Swirl Course\n\nThis second Swirl course will introduce you how to conduct exploratory data analysis on some sample data sets, plotting in R using bases packages, and how to use the the famous GGPlot package.\n\nExploratory Data Analysis\n\n\n\nIntroduction to Bash Programming and Working on an HPC Workshop\n\nInstructor\nDates\nSignup Link",
+    "crumbs": [
+      "Course information",
+      "Prerequisites"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "OUHS scRNA-Seq Fall Workshop",
