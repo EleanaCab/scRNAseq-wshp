@@ -23,6 +23,8 @@ website:
       - section: "Course information"
         icon: house
         contents:
+          - href: course-prereqs.qmd
+            text: Prerequisites
           - href: course-overview.qmd
             text: Overview
           - href: course-syllabus.qmd
