@@ -1,0 +1,35 @@
+---
+title: "Meet the Course Team!"
+format: html
+---
+:::: {.columns}
+::: {.column width="40%"}
+
+:::
+::: {.column width="60%"}
+### Jun Li
+Professor and Chair of Genetics and Genome Sciences 
+
+### Kurt Zimmerman
+Associate Professor with Medicine Nephrology
+
+### Lindsay Hayes
+Associate Professor with Cell Biology
+
+### Hande Acar
+Senior Bioinformatics Analyst at IRCF
+
+### Kylie Williams
+Contract / Grant Manager with Gerosciences
+
+### Eleana Cabello
+Bioinformatics Analyst with Dr. Boa Vu's Lab and IRCF
+
+### Hua Zhong
+Research Data Specialist
+
+### Dave Stanford
+Senior Bioinformatics Analyst with Ophthalmology
+
+:::
+:::

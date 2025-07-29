@@ -3,20 +3,63 @@ project:
   output-dir: docs
 
 website:
-  title: "Single Cell RNA Sequencing Workshop"
-  navbar:
+  bread-crumbs: false
+  page-navigation: true
+  
+  open-graph: true
+  
+  sidebar:
+    logo: "images/logo_2.png"
+    background: "#d6afa7"
+    pinned: true
+    align: center
+    tools:
+      - icon: github
+        href: https://github.com/EleanaCab/scRNAseq-wshp/tree/main
+    style: "docked"
     search: true
-    right:
-      - icon: house
-        text: "Home"
-        file: index.qmd
+    collapse-level: 1
+    contents:
+      - section: "Course information"
+        icon: house
+        contents:
+          - href: course-overview.qmd
+            text: Overview
+          - href: course-syllabus.qmd
+            text: Syllabus
+          - href: course-team.qmd
+            text: Teaching team
+          - href: index.qmd
+            text: Schedule
+      - section: "Pre-reading"
+        icon: book
+        contents:
+          - href: pre-readings/example.qmd
+            text: Day 1 Pre-reading
+      - section: "Daily materials"
+        icon: pencil
+        contents:
+          - href: days-content/day-1.qmd
+            text: "Day 1"
+          - href: days-content/day-2.qmd
+            text: "Day 2"
+          - href: days-content/day-3.qmd
+            text: "Day 3"
+      - section: "Supplemental notes"
+        icon: clipboard2-plus
+        contents:
+          - href: supplemental-material/example.qmd
+            text: Supp Material Example
 
 format:
   html:
-    theme: styles.scss
+    theme:
+      light: [cosmo, theme.scss]
+      dark: [cosmo, theme-dark.scss]
+    code-copy: true
+    code-overflow: wrap
     toc: true
 
-execute:
-  freeze: auto
+freeze: auto
 
 
