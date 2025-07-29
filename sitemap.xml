@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://EleanaCab.github.io/scRNAseq-wshp/course-syllabus.html</loc>
+    <lastmod>2025-07-29T13:44:49.089Z</lastmod>
+  </url>
+  <url>
+    <loc>https://EleanaCab.github.io/scRNAseq-wshp/supplemental-material/example.html</loc>
+    <lastmod>2025-07-29T13:44:49.122Z</lastmod>
+  </url>
+  <url>
+    <loc>https://EleanaCab.github.io/scRNAseq-wshp/days-content/day-2.html</loc>
+    <lastmod>2025-07-29T13:44:49.089Z</lastmod>
+  </url>
+  <url>
+    <loc>https://EleanaCab.github.io/scRNAseq-wshp/course-overview.html</loc>
+    <lastmod>2025-07-29T13:44:49.089Z</lastmod>
+  </url>
+  <url>
+    <loc>https://EleanaCab.github.io/scRNAseq-wshp/course-team.html</loc>
+    <lastmod>2025-07-29T13:44:49.089Z</lastmod>
+  </url>
+  <url>
     <loc>https://EleanaCab.github.io/scRNAseq-wshp/index.html</loc>
-    <lastmod>2025-06-09T20:41:21.510Z</lastmod>
+    <lastmod>2025-07-29T13:44:49.121Z</lastmod>
+  </url>
+  <url>
+    <loc>https://EleanaCab.github.io/scRNAseq-wshp/days-content/day-1.html</loc>
+    <lastmod>2025-07-29T13:44:49.089Z</lastmod>
+  </url>
+  <url>
+    <loc>https://EleanaCab.github.io/scRNAseq-wshp/days-content/day-3.html</loc>
+    <lastmod>2025-07-29T13:44:49.089Z</lastmod>
+  </url>
+  <url>
+    <loc>https://EleanaCab.github.io/scRNAseq-wshp/pre-readings/example.html</loc>
+    <lastmod>2025-07-29T13:44:49.121Z</lastmod>
   </url>
 </urlset>
