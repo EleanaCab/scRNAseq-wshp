@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>OUHS scRNA-Seq Fall Workshop</title>
+<title>Single Cell RNA-Seq Workshop</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./pre-readings/example.html" rel="next">
-<link href="./course-team.html" rel="prev">
+<link href="./pre-readings/day-1-pre-reading.html" rel="next">
+<link href="./workshop-team.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -42,9 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-8e09fbd4ea735bf73aebc68e0c4baf43.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-f2dc622f0851c921f136222d1cac3459.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-8e09fbd4ea735bf73aebc68e0c4baf43.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6be1b58c2f11537d32e8edf535f924dc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-992bfb40001ab579f87ded6ef55df6b6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-6be1b58c2f11537d32e8edf535f924dc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -74,8 +74,10 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="OUHS scRNA-Seq Fall Workshop">
-<meta property="og:description" content="">
+<meta property="og:title" content="Single Cell RNA-Seq Workshop">
+<meta property="og:image" content="https://EleanaCab.github.io/scRNAseq-wshp/images/details/room.png">
+<meta property="og:image:height" content="750">
+<meta property="og:image:width" content="750">
 </head>
 
 <body class="nav-sidebar docked quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -250,7 +252,7 @@ ul.task-list li input[type="checkbox"] {
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <a class="flex-grow-1 no-decor" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-          <h1 class="quarto-secondary-nav-title">OUHS scRNA-Seq Fall Workshop</h1>
+          <h1 class="quarto-secondary-nav-title">Single Cell RNA-Seq Workshop</h1>
         </a>     
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
@@ -259,12 +261,12 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="./index.html" class="sidebar-logo-link">
-      <img src="./images/logo_2.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="./images/logo/logo_2.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main">
     <a href="https://github.com/EleanaCab/scRNAseq-wshp/tree/main" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
@@ -290,26 +292,20 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-prereqs.html" class="sidebar-item-text sidebar-link">
+  <a href="./workshop-prereqs.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Prerequisites</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-overview.html" class="sidebar-item-text sidebar-link">
+  <a href="./workshop-overview.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Overview</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-syllabus.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Syllabus</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./course-team.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Teaching team</span></a>
+  <a href="./workshop-team.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Workshop team</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -332,8 +328,20 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./pre-readings/example.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 1 Pre-reading</span></a>
+  <a href="./pre-readings/day-1-pre-reading.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Day 1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./pre-readings/day-2-pre-reading.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Day 2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./pre-readings/day-3-pre-reading.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Day 3</span></a>
   </div>
 </li>
       </ul>
@@ -350,20 +358,14 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./days-content/day-1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 1</span></a>
+  <a href="./days-content/day-1-am.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Day 1 - Morning</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./days-content/day-2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 2</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./days-content/day-3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 3</span></a>
+  <a href="./days-content/day-1-pm.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Day 1 - Afternoon</span></a>
   </div>
 </li>
       </ul>
@@ -391,21 +393,27 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#schedule" id="toc-schedule" class="nav-link active" data-scroll-target="#schedule">Schedule</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">OUHS scRNA-Seq Fall Workshop</h1>
+<h1 class="title d-none d-lg-block">Single Cell RNA-Seq Workshop</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-body">
 
     
   
@@ -417,41 +425,97 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This page contains an outline for each day of this week long workshop.</p>
-<table class="centered-table caption-top table" data-quarto-postprocess="true">
+<div class="columns">
+<div class="column" style="width:30%;">
+<p><img src="images/details/room.png" class="rounded-image img-fluid" width="250"></p>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column center-text" style="width:65%;">
+<p><strong>Dates</strong>:</p>
+<p>December 9th, 10th, and 12th</p>
+<p><strong>Times</strong>:</p>
+<p>9:00AM- 4:00PM</p>
+<p><strong>Location</strong>:</p>
+<p>Inasmuch Foundation Atrium in Robert M Bird Library</p>
+</div>
+</div>
+<section id="schedule" class="level1">
+<h1>Schedule</h1>
+<table class="caption-top table" data-quarto-postprocess="true">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 15%">
+<col style="width: 45%">
+<col style="width: 15%">
+<col style="width: 5%">
+</colgroup>
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"><strong>Day</strong></th>
+<th data-quarto-table-cell-role="th"><strong>Date</strong></th>
+<th data-quarto-table-cell-role="th"><strong>Instructors</strong></th>
+<th data-quarto-table-cell-role="th"><strong>Topic</strong></th>
+<th data-quarto-table-cell-role="th"><strong>Pre-reading</strong></th>
+<th data-quarto-table-cell-role="th"><strong>Slides</strong></th>
+</tr>
+</thead>
 <tbody>
 <tr class="odd">
-<td><strong>Day</strong></td>
-<td><strong>Date</strong></td>
-<td><strong>Topic</strong></td>
-<td><strong>Pre-reading</strong></td>
-<td><strong>Slides</strong></td>
+<td><a href="https://eleanacab.github.io/scRNAseq-wshp/days-content/day-1-am.html">1-AM</a></td>
+<td>12/09</td>
+<td>Kylie Williams<br>
+Hande Acar</td>
+<td>Logging into OSCER, Sample Prep, and Sequencing</td>
+<td><a href="https://eleanacab.github.io/scRNAseq-wshp/pre-readings/day-1-pre-reading.html">📚</a></td>
+<td><a href="LINK">📺</a></td>
 </tr>
 <tr class="even">
-<td><a href="https://eleanacab.github.io/scRNAseq-wshp/days-content/day-1.html">1</a></td>
-<td>TBD</td>
-<td>TBD</td>
-<td><a href="https://www.w3schools.com/">📚</a></td>
-<td><a href="https://www.w3schools.com/">📺</a></td>
+<td><a href="https://eleanacab.github.io/scRNAseq-wshp/days-content/day-1-pm.html">1-PM</a></td>
+<td>12/09</td>
+<td>Kylie Williams<br>
+Hande Acar</td>
+<td>Using Cellranger, Quality Control Measures</td>
+<td><a href="https://eleanacab.github.io/scRNAseq-wshp/pre-readings/day-1-pre-reading.html">📚</a></td>
+<td><a href="LINK">📺</a></td>
 </tr>
 <tr class="odd">
-<td><a href="https://eleanacab.github.io/scRNAseq-wshp/days-content/day-2.html">2</a></td>
-<td>TBD</td>
-<td>TBD</td>
-<td><a href="https://www.w3schools.com/">📚</a></td>
-<td><a href="https://www.w3schools.com/">📺</a></td>
+<td><a href="https://eleanacab.github.io/scRNAseq-wshp/days-content/day-2-am.html">2-AM</a></td>
+<td>12/10</td>
+<td>Lindsay Hayes</td>
+<td>Seurat Objects and Clustering</td>
+<td><a href="https://eleanacab.github.io/scRNAseq-wshp/pre-readings/day-2-pre-reading.html">📚</a></td>
+<td><a href="LINK">📺</a></td>
 </tr>
 <tr class="even">
-<td><a href="https://eleanacab.github.io/scRNAseq-wshp/days-content/day-3.html">3</a></td>
-<td>TBD</td>
-<td>TBD</td>
-<td><a href="https://www.w3schools.com/">📚</a></td>
-<td><a href="https://www.w3schools.com/">📺</a></td>
+<td><a href="https://eleanacab.github.io/scRNAseq-wshp/days-content/day-2-pm.html">2-PM</a></td>
+<td>12/10</td>
+<td>Lindsay Hayes</td>
+<td>Annotating cells and Subclustering</td>
+<td><a href="https://eleanacab.github.io/scRNAseq-wshp/pre-readings/day-2-pre-reading.html">📚</a></td>
+<td><a href="LINK">📺</a></td>
+</tr>
+<tr class="odd">
+<td><a href="https://eleanacab.github.io/scRNAseq-wshp/days-content/day-3-am.html">3-AM</a></td>
+<td>12/12</td>
+<td>Kurt Zimmerman</td>
+<td>Downstream Analysis Pipelines - Pseudotime Analysis using Monocle and Cell-Cell Communication using Nichenet/Cellchats</td>
+<td><a href="https://eleanacab.github.io/scRNAseq-wshp/pre-readings/day-3-pre-reading.html">📚</a></td>
+<td><a href="LINK">📺</a></td>
+</tr>
+<tr class="even">
+<td><a href="https://eleanacab.github.io/scRNAseq-wshp/days-content/day-3-pm.html">3-PM</a></td>
+<td>12/12</td>
+<td>Kurt Zimmerman</td>
+<td>Downstream Analysis Pipelines - Pathway/Transcription Factor Inference</td>
+<td><a href="https://eleanacab.github.io/scRNAseq-wshp/pre-readings/day-3-pre-reading.html">📚</a></td>
+<td><a href="LINK">📺</a></td>
 </tr>
 </tbody>
 </table>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -866,15 +930,15 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-<nav class="page-navigation">
+<nav class="page-navigation column-body">
   <div class="nav-page nav-page-previous">
-      <a href="./course-team.html" class="pagination-link" aria-label="Teaching team">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Teaching team</span>
+      <a href="./workshop-team.html" class="pagination-link" aria-label="Workshop team">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Workshop team</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./pre-readings/example.html" class="pagination-link" aria-label="Day 1 Pre-reading">
-        <span class="nav-page-text">Day 1 Pre-reading</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./pre-readings/day-1-pre-reading.html" class="pagination-link" aria-label="Day 1">
+        <span class="nav-page-text">Day 1</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
