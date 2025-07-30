@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "OUHS scRNA-Seq Fall Workshop",
+    "title": "Single Cell RNA-Seq Workshop",
     "section": "",
-    "text": "This page contains an outline for each day of this week long workshop.\n\n\n\nDay\nDate\nTopic\nPre-reading\nSlides\n\n\n1\nTBD\nTBD\n📚\n📺\n\n\n2\nTBD\nTBD\n📚\n📺\n\n\n3\nTBD\nTBD\n📚\n📺",
+    "text": "Dates:\nDecember 9th, 10th, and 12th\nTimes:\n9:00AM- 4:00PM\nLocation:\nInasmuch Foundation Atrium in Robert M Bird Library\n\n\n\nSchedule\n\n\n\n\n\n\n\n\n\n\n\nDay\nDate\nInstructors\nTopic\nPre-reading\nSlides\n\n\n\n\n1-AM\n12/09\nKylie Williams\nHande Acar\nLogging into OSCER, Sample Prep, and Sequencing\n📚\n📺\n\n\n1-PM\n12/09\nKylie Williams\nHande Acar\nUsing Cellranger, Quality Control Measures\n📚\n📺\n\n\n2-AM\n12/10\nLindsay Hayes\nSeurat Objects and Clustering\n📚\n📺\n\n\n2-PM\n12/10\nLindsay Hayes\nAnnotating cells and Subclustering\n📚\n📺\n\n\n3-AM\n12/12\nKurt Zimmerman\nDownstream Analysis Pipelines - Pseudotime Analysis using Monocle and Cell-Cell Communication using Nichenet/Cellchats\n📚\n📺\n\n\n3-PM\n12/12\nKurt Zimmerman\nDownstream Analysis Pipelines - Pathway/Transcription Factor Inference\n📚\n📺",
     "crumbs": [
       "Course information",
       "Schedule"
@@ -35,12 +35,12 @@
   {
     "objectID": "course-team.html",
     "href": "course-team.html",
-    "title": "Meet the Course Team!",
+    "title": "Meet the Workshop Team!",
     "section": "",
-    "text": "Jun Li\nProfessor and Chair of Genetics and Genome Sciences\n\n\nKurt Zimmerman\nAssociate Professor with Medicine Nephrology\n\n\nLindsay Hayes\nAssociate Professor with Cell Biology\n\n\nHande Acar\nSenior Bioinformatics Analyst at IRCF\n\n\nKylie Williams\nContract / Grant Manager with Gerosciences\n\n\nEleana Cabello\nBioinformatics Analyst with Dr. Boa Vu’s Lab and IRCF\n\n\nHua Zhong\nResearch Data Specialist\n\n\nDave Stanford\nSenior Bioinformatics Analyst with Ophthalmology",
+    "text": "Jun Li\nProfessor and Chair of Genetics and Genome Sciences\n\n\n\nKurt Zimmerman\nAssociate Professor with Medicine Nephrology\n\n\n\nLindsay Hayes\nAssociate Professor with Cell Biology\n\n\n\nHande Acar\nSenior Bioinformatics Analyst at IRCF\n\n\n\n\n\n\nKylie Williams\nContract / Grant Manager with Gerosciences\n\n\n\nEleana Cabello\nBioinformatics Analyst with Dr. Boa Vu’s Lab and IRCF\n\n\n\nHua Zhong\nResearch Data Specialist\n\n\n\nDave Stanford\nSenior Bioinformatics Analyst with Ophthalmology",
     "crumbs": [
       "Course information",
-      "Teaching team"
+      "Workshop team"
     ]
   },
   {
@@ -70,10 +70,384 @@
     "href": "course-prereqs.html",
     "title": "Course Prerequisites",
     "section": "",
-    "text": "Please complete the following courses/workshops before FILL_IN_DATE.\n\nSwirl Courses\nThe following Swirl course will teach you the basics of R programming and how to navigate through RStudio.\n\nR Programming Swirl Course\n\nThis second Swirl course will introduce you how to conduct exploratory data analysis on some sample data sets, plotting in R using bases packages, and how to use the the famous GGPlot package.\n\nExploratory Data Analysis\n\n\n\nIntroduction to Bash Programming and Working on an HPC Workshop\n\nInstructor\nDates\nSignup Link",
+    "text": "Please complete the following online courses and workshops before 11/01/2025.",
     "crumbs": [
       "Course information",
       "Prerequisites"
+    ]
+  },
+  {
+    "objectID": "course-prereqs.html#notes",
+    "href": "course-prereqs.html#notes",
+    "title": "Course Prerequisites",
+    "section": "Notes",
+    "text": "Notes\n\nDataset summary pages\nDay 1 cellranger\nmouse kidney\ngoogle drive content folder",
+    "crumbs": [
+      "Course information",
+      "Prerequisites"
+    ]
+  },
+  {
+    "objectID": "course-prereqs.html#swirl-courses",
+    "href": "course-prereqs.html#swirl-courses",
+    "title": "Course Prerequisites",
+    "section": "Swirl Courses",
+    "text": "Swirl Courses\nThe following Swirl course will teach you the basics of R programming and how to navigate through RStudio.\n\nR Programming Swirl Course\n\nThis second Swirl course will introduce you how to conduct exploratory data analysis on some sample data sets, plotting in R using bases packages, and how to use the the famous GGPlot package.\n\nExploratory Data Analysis\n\nCompletion of each course will be counted on our end through the Google form submission part of each lesson. If you have issues submitting the Google Form at the end of any lesson, send an email to: eleana-cabello@ouhsc.edu",
+    "crumbs": [
+      "Course information",
+      "Prerequisites"
+    ]
+  },
+  {
+    "objectID": "course-prereqs.html#introduction-to-bash-programming-and-hpc-workshop",
+    "href": "course-prereqs.html#introduction-to-bash-programming-and-hpc-workshop",
+    "title": "Course Prerequisites",
+    "section": "Introduction to Bash Programming and HPC Workshop",
+    "text": "Introduction to Bash Programming and HPC Workshop\n\nDates\nSignup Link:",
+    "crumbs": [
+      "Course information",
+      "Prerequisites"
+    ]
+  },
+  {
+    "objectID": "course-prereqs.html#properly-setup-r-and-rstudio-enviroment-locally",
+    "href": "course-prereqs.html#properly-setup-r-and-rstudio-enviroment-locally",
+    "title": "Course Prerequisites",
+    "section": "Properly Setup R and RStudio Enviroment Locally",
+    "text": "Properly Setup R and RStudio Enviroment Locally\nPleas emake sure to have R and RStudio properly set up on your device before the workshop. If you do not have RStudio installed, please follow the instructions linked below:\n\nInstall R and RStudio Video\nInstall R and RStudio Guide - Complete steps 1 and 2",
+    "crumbs": [
+      "Course information",
+      "Prerequisites"
+    ]
+  },
+  {
+    "objectID": "course-prereqs.html#access-to-oscer-workshop-account",
+    "href": "course-prereqs.html#access-to-oscer-workshop-account",
+    "title": "Course Prerequisites",
+    "section": "Access to OSCER Workshop Account",
+    "text": "Access to OSCER Workshop Account\n\nLogging into OSCER Guest Account\nGood news! There is nothing you need to do to setup an account. A guest account has already been made for you by us for FREE!\n\n\n\n\n\n\nSteps to Log In\n\n\n\n\nGather your log in information, username and password sent to you.\nFind the terminal on your computer.\n\nType the following command to access you OSCER account\nssh USERNAME@sooner.oscer.ou.edu #Replace USERNAME with your guest username\nIt will ask for your password, start typing it. It will not appear on your screen do not be alarmed this is normal. Just make sure to enter it correctly then hit enter.\n\nYou’ve logged into your account!",
+    "crumbs": [
+      "Course information",
+      "Prerequisites"
+    ]
+  },
+  {
+    "objectID": "course-prereqs.html#access-oscer-workshop-guest-account",
+    "href": "course-prereqs.html#access-oscer-workshop-guest-account",
+    "title": "Course Prerequisites",
+    "section": "Access OSCER Workshop Guest Account",
+    "text": "Access OSCER Workshop Guest Account\nGood news! There is nothing you need to do to setup an account. A guest account has already been made for you by us for FREE!\n\n\n\n\n\n\nSteps to Log In\n\n\n\n\nGather your log in information, username and password sent to you.\nFind the terminal on your computer.\n\nType the following command to access you OSCER account\nssh USERNAME@sooner.oscer.ou.edu #Replace USERNAME with your guest username\nIt will ask for your password, start typing it. It will not appear on your screen do not be alarmed this is normal. Just make sure to enter it correctly then hit enter.\n\nYou’ve logged into your account!",
+    "crumbs": [
+      "Course information",
+      "Prerequisites"
+    ]
+  },
+  {
+    "objectID": "workshop-team.html",
+    "href": "workshop-team.html",
+    "title": "Meet the Team!",
+    "section": "",
+    "text": "Hande Acar\nSenior Bioinformatics Analyst at IRCF\n\n\n\nLindsay Hayes\nAssociate Professor with Cell Biology\n\n\n\nJun Li\nProfessor and Chair of Genetics and Genome Sciences\n\n\n\nKurt Zimmerman\nAssociate Professor with Medicine Nephrology\n\n\n\n\n\n\nEleana Cabello\nBioinformatics Analyst with Dr. Boa Vu’s Lab and IRCF\n\n\n\nKylie Williams\nContract / Grant Manager with Gerosciences\n\n\n\nDave Stanford\nSenior Bioinformatics Analyst with Ophthalmology\n\n\n\nHua Zhong\nResearch Data Specialist",
+    "crumbs": [
+      "Course information",
+      "Workshop team"
+    ]
+  },
+  {
+    "objectID": "workshop-prereqs.html",
+    "href": "workshop-prereqs.html",
+    "title": "Workshop Prerequisites",
+    "section": "",
+    "text": "Please complete the following online courses and workshops before 11/01/2025",
+    "crumbs": [
+      "Course information",
+      "Prerequisites"
+    ]
+  },
+  {
+    "objectID": "workshop-prereqs.html#swirl-courses",
+    "href": "workshop-prereqs.html#swirl-courses",
+    "title": "Workshop Prerequisites",
+    "section": "Swirl Courses",
+    "text": "Swirl Courses\nThe following Swirl course will teach you the basics of R programming. Follow the steps in the link below to install the course and submit your participation:\n\nR Programming Swirl Course\n\nThis second Swirl course will teach you how to conduct exploratory data analysis on sample data sets, plotting in R using bases packages, and how to use the the famous ggplot2 package. Follow the steps in the link below to install the course and submit your participation:\n\nExploratory Data Analysis\n\nCompletion of each course will be counted on our end through a Google form submission part of each lesson. If you have issues submitting the Google Form at the end of any lesson, send an email to: eleana-cabello@ouhsc.edu",
+    "crumbs": [
+      "Course information",
+      "Prerequisites"
+    ]
+  },
+  {
+    "objectID": "workshop-prereqs.html#introduction-to-bash-programming-and-hpc-workshop",
+    "href": "workshop-prereqs.html#introduction-to-bash-programming-and-hpc-workshop",
+    "title": "Workshop Prerequisites",
+    "section": "Introduction to Bash Programming and HPC Workshop",
+    "text": "Introduction to Bash Programming and HPC Workshop\nPlease sign up and attend one of the session listed below:\n\nDates: TBD\nSignup Link: TBM\n\nIf you have trouble signing up please send an email to: eleana-cabello@ouhsc.edu or hande-acar@ouhsc.edu",
+    "crumbs": [
+      "Course information",
+      "Prerequisites"
+    ]
+  },
+  {
+    "objectID": "workshop-prereqs.html#properly-setup-r-and-rstudio-enviroment-locally",
+    "href": "workshop-prereqs.html#properly-setup-r-and-rstudio-enviroment-locally",
+    "title": "Workshop Prerequisites",
+    "section": "Properly Setup R and RStudio Enviroment Locally",
+    "text": "Properly Setup R and RStudio Enviroment Locally\nPleas emake sure to have R and RStudio properly set up on your device before the workshop. If you do not have RStudio installed, please follow the instructions linked below:\n\nInstall R and RStudio Video\nInstall R and RStudio Guide - Complete steps 1 and 2",
+    "crumbs": [
+      "Course information",
+      "Prerequisites"
+    ]
+  },
+  {
+    "objectID": "workshop-prereqs.html#access-oscer-workshop-guest-account",
+    "href": "workshop-prereqs.html#access-oscer-workshop-guest-account",
+    "title": "Workshop Prerequisites",
+    "section": "Access OSCER Workshop Guest Account",
+    "text": "Access OSCER Workshop Guest Account\nGood news! There is nothing you need to do to setup an account. A guest account has already been made for you by us for FREE!\n\n\n\n\n\n\nSteps to Log In\n\n\n\n\nGather your log in information, username and password sent to you.\nFind the terminal on your computer.\n\nType the following command to access you OSCER account\nssh USERNAME@sooner.oscer.ou.edu #Replace USERNAME with your guest username\nIt will ask for your password, start typing it. It will not appear on your screen do not be alarmed this is normal. Just make sure to enter it correctly then hit enter.\n\nYou’ve logged into your account!",
+    "crumbs": [
+      "Course information",
+      "Prerequisites"
+    ]
+  },
+  {
+    "objectID": "workshop-prereqs.html#notes",
+    "href": "workshop-prereqs.html#notes",
+    "title": "Workshop Prerequisites",
+    "section": "Notes",
+    "text": "Notes\n\nDataset summary pages\nDay 1 cellranger\nmouse kidney\ngoogle drive content folder",
+    "crumbs": [
+      "Course information",
+      "Prerequisites"
+    ]
+  },
+  {
+    "objectID": "workshop-team.html#hande-acar",
+    "href": "workshop-team.html#hande-acar",
+    "title": "Meet the Workshop Team!",
+    "section": "",
+    "text": "Senior Bioinformatics Analyst at IRCF",
+    "crumbs": [
+      "Course information",
+      "Workshop team"
+    ]
+  },
+  {
+    "objectID": "workshop-team.html#lindsay-hayes",
+    "href": "workshop-team.html#lindsay-hayes",
+    "title": "Meet the Workshop Team!",
+    "section": "",
+    "text": "Associate Professor with Cell Biology",
+    "crumbs": [
+      "Course information",
+      "Workshop team"
+    ]
+  },
+  {
+    "objectID": "workshop-team.html#jun-li",
+    "href": "workshop-team.html#jun-li",
+    "title": "Meet the Workshop Team!",
+    "section": "",
+    "text": "Professor and Chair of Genetics and Genome Sciences",
+    "crumbs": [
+      "Course information",
+      "Workshop team"
+    ]
+  },
+  {
+    "objectID": "workshop-team.html#kurt-zimmerman",
+    "href": "workshop-team.html#kurt-zimmerman",
+    "title": "Meet the Workshop Team!",
+    "section": "",
+    "text": "Associate Professor with Medicine Nephrology",
+    "crumbs": [
+      "Course information",
+      "Workshop team"
+    ]
+  },
+  {
+    "objectID": "workshop-team.html#eleana-cabello",
+    "href": "workshop-team.html#eleana-cabello",
+    "title": "Meet the Workshop Team!",
+    "section": "",
+    "text": "Bioinformatics Analyst with Dr. Boa Vu’s Lab and IRCF",
+    "crumbs": [
+      "Course information",
+      "Workshop team"
+    ]
+  },
+  {
+    "objectID": "workshop-team.html#kylie-williams",
+    "href": "workshop-team.html#kylie-williams",
+    "title": "Meet the Workshop Team!",
+    "section": "",
+    "text": "Contract / Grant Manager with Gerosciences",
+    "crumbs": [
+      "Course information",
+      "Workshop team"
+    ]
+  },
+  {
+    "objectID": "workshop-team.html#dave-stanford",
+    "href": "workshop-team.html#dave-stanford",
+    "title": "Meet the Workshop Team!",
+    "section": "",
+    "text": "Senior Bioinformatics Analyst with Ophthalmology",
+    "crumbs": [
+      "Course information",
+      "Workshop team"
+    ]
+  },
+  {
+    "objectID": "workshop-team.html#hua-zhong",
+    "href": "workshop-team.html#hua-zhong",
+    "title": "Meet the Workshop Team!",
+    "section": "",
+    "text": "Research Data Specialist",
+    "crumbs": [
+      "Course information",
+      "Workshop team"
+    ]
+  },
+  {
+    "objectID": "workshop-prereqs.html#setup-r-and-rstudio-locally",
+    "href": "workshop-prereqs.html#setup-r-and-rstudio-locally",
+    "title": "Workshop Prerequisites",
+    "section": "Setup R and RStudio Locally",
+    "text": "Setup R and RStudio Locally\nPlease make sure to have R and RStudio properly set up on your device before the workshop. If you do not have RStudio installed, please follow the instructions linked below:\n\nInstall R and RStudio Video\nInstall R and RStudio Guide - Complete steps 1 and 2",
+    "crumbs": [
+      "Course information",
+      "Prerequisites"
+    ]
+  },
+  {
+    "objectID": "index.html#course-information",
+    "href": "index.html#course-information",
+    "title": "Single Cell RNA-Seq Workshop",
+    "section": "",
+    "text": "Dates: December 9th, 10th, 12th\nTimes: 9:00am - 4:00pm\nLocation: Inasmuch Foundation Atrium in Robert M Bird Health Sci Library",
+    "crumbs": [
+      "Course information",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "index.html#schedule",
+    "href": "index.html#schedule",
+    "title": "Single Cell RNA-Seq Workshop",
+    "section": "Schedule",
+    "text": "Schedule\n\n\n\n\n\n\n\n\n\n\n\nDay\nDate\nInstructors\nTopic\nPre-reading\nSlides\n\n\n\n\n1-AM\n12/09\nKylie Williams\nHande Acar\nIntroduction - Logging into OSCER, Sample Prep, and Sequencing\n📚\n📺\n\n\n1-PM\n12/09\nKylie Williams\nHande Acar\nIntroduction - Using Cellranger, Quality Control Measures\n📚\n📺\n\n\n2-AM\n12/10\nLindsay Hayes\nSeurat Objects and Clustering\n📚\n📺\n\n\n2-PM\n12/10\nLindsay Hayes\nAnnotating cells and Subclustering\n📚\n📺\n\n\n3-AM\n12/12\nKurt Zimmerman\nDownstream Analysis Pipelines - Pseudotime Analysis using Monocle and Cell-Cell Communication using Nichenet/Cellchats\n📚\n📺\n\n\n3-PM\n12/12\nKurt Zimmerman\nDownstream Analysis Pipelines - Pathway/Transcription Factor Inference\n📚\n📺",
+    "crumbs": [
+      "Course information",
+      "Schedule"
+    ]
+  },
+  {
+    "objectID": "days-content/day-1-am.html#learning-objectives",
+    "href": "days-content/day-1-am.html#learning-objectives",
+    "title": "Day 1",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n\n\n\n\n\n\nLearning objectives\n\n\n\nAt the end of this lesson you will:",
+    "crumbs": [
+      "Daily materials",
+      "Day 1 - Morning"
+    ]
+  },
+  {
+    "objectID": "days-content/day-1-am.html#slides",
+    "href": "days-content/day-1-am.html#slides",
+    "title": "Day 1",
+    "section": "Slides",
+    "text": "Slides\n\nSLIDES",
+    "crumbs": [
+      "Daily materials",
+      "Day 1 - Morning"
+    ]
+  },
+  {
+    "objectID": "days-content/day-1-am.html#acknowledgements",
+    "href": "days-content/day-1-am.html#acknowledgements",
+    "title": "Day 1",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nMaterial for this lecture was borrowed and adopted from\n\nsw carpentry: https://carpentries-incubator.github.io/bioc-intro/20-r-rstudio.html\ndata carpentry: https://datacarpentry.github.io/genomics-r-intro/00-introduction.html",
+    "crumbs": [
+      "Daily materials",
+      "Day 1 - Morning"
+    ]
+  },
+  {
+    "objectID": "days-content/day-1-am.html#summary",
+    "href": "days-content/day-1-am.html#summary",
+    "title": "Day 1",
+    "section": "Summary",
+    "text": "Summary",
+    "crumbs": [
+      "Daily materials",
+      "Day 1 - Morning"
+    ]
+  },
+  {
+    "objectID": "days-content/day-1-am.html#additional-practice",
+    "href": "days-content/day-1-am.html#additional-practice",
+    "title": "Day 1",
+    "section": "Additional practice",
+    "text": "Additional practice",
+    "crumbs": [
+      "Daily materials",
+      "Day 1 - Morning"
+    ]
+  },
+  {
+    "objectID": "days-content/day-1-pm.html#learning-objectives",
+    "href": "days-content/day-1-pm.html#learning-objectives",
+    "title": "Day 1 - Afternoon",
+    "section": "Learning objectives",
+    "text": "Learning objectives\n\n\n\n\n\n\nLearning objectives\n\n\n\nAt the end of this lesson you will:",
+    "crumbs": [
+      "Daily materials",
+      "Day 1 - Afternoon"
+    ]
+  },
+  {
+    "objectID": "days-content/day-1-pm.html#slides",
+    "href": "days-content/day-1-pm.html#slides",
+    "title": "Day 1",
+    "section": "Slides",
+    "text": "Slides\n\nSLIDES",
+    "crumbs": [
+      "Daily materials",
+      "Day 1 - Afternoon"
+    ]
+  },
+  {
+    "objectID": "days-content/day-1-pm.html#summary",
+    "href": "days-content/day-1-pm.html#summary",
+    "title": "Day 1 - Afternoon",
+    "section": "Summary",
+    "text": "Summary",
+    "crumbs": [
+      "Daily materials",
+      "Day 1 - Afternoon"
+    ]
+  },
+  {
+    "objectID": "days-content/day-1-pm.html#additional-practice",
+    "href": "days-content/day-1-pm.html#additional-practice",
+    "title": "Day 1 - Afternoon",
+    "section": "Additional practice",
+    "text": "Additional practice",
+    "crumbs": [
+      "Daily materials",
+      "Day 1 - Afternoon"
+    ]
+  },
+  {
+    "objectID": "days-content/day-1-pm.html",
+    "href": "days-content/day-1-pm.html",
+    "title": "Day 1",
+    "section": "",
+    "text": "Pre-lecture Reading\n\n\nLecture\n\n\n\n\n\n\nLearning objectives\n\n\n\nAt the end of this lesson you will:\n\n\nSlides: SLIDES\n\n\nSummary\n\n\nAdditional practice",
+    "crumbs": [
+      "Daily materials",
+      "Day 1 - Afternoon"
     ]
   }
 ]

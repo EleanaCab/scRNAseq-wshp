@@ -1,43 +1,103 @@
 ---
-title: "OUHS scRNA-Seq Fall Workshop"
+title: "Single Cell RNA-Seq Workshop"
 format: html
+page-layout: full
 ---
 
-This page contains an outline for each day of this week long workshop. 
+::::{.columns}
+:::{.column width="30%"}
+![](images/details/room.png){width="250" .rounded-image}
+:::
+:::{.column width="5%"}
+:::
+:::{.column width="65%".center-text}
+**Dates**: 
+
+December 9th, 10th, and 12th
+
+**Times**: 
+
+9:00AM- 4:00PM
+
+**Location**: 
+
+Inasmuch Foundation Atrium in Robert M Bird Library
+:::
+::::
+
+
+# Schedule 
 
 ```{=html}
-<table class="centered-table">
+<table style="width:100%; margin">
+  <colgroup>
+       <col span="1" style="width: 10%;">
+       <col span="1" style="width: 10%;">
+       <col span="1" style="width: 15%;">
+       <col span="1" style="width: 45%;">
+       <col span="1" style="width: 15%;">
+       <col span="1" style="width: 5%;">
+  </colgroup>
   <thead>
+  <tr>
+    <th><b>Day</b></th>
+    <th><b>Date</b></th>
+    <th><b>Instructors</b></th>
+    <th><b>Topic</b></th>
+    <th><b>Pre-reading</b></th>
+    <th><b>Slides</b></th>
+    </tr>
   </thead>
   <tbody>
     <tr>
-    <td><b>Day</b></td>
-    <td><b>Date</b></td>
-    <td><b>Topic</b></td>
-    <td><b>Pre-reading</b></td>
-    <td><b>Slides</b></td>
+    <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-1-am.html>1-AM</a></td>
+    <td>12/09</td>
+    <td>Kylie Williams<br>Hande Acar</td>
+    <td>Logging into OSCER, Sample Prep, and Sequencing</td>
+    <td><a href="https://eleanacab.github.io/scRNAseq-wshp/pre-readings/day-1-pre-reading.html">📚</a></td>
+    <td><a href="LINK">📺</a></td>
     </tr>
     <tr>
-    <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-1.html>1</a></td>
-    <td>TBD</td>
-    <td>TBD</td>
-    <td><a href="https://www.w3schools.com/">📚</a></td>
-    <td><a href="https://www.w3schools.com/">📺</a></td>
+    <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-1-pm.html>1-PM</a></td>
+    <td>12/09</td>
+    <td>Kylie Williams<br>Hande Acar</td>
+    <td>Using Cellranger, Quality Control Measures</td>
+    <td><a href="https://eleanacab.github.io/scRNAseq-wshp/pre-readings/day-1-pre-reading.html">📚</a></td>
+    <td><a href="LINK">📺</a></td>
     </tr>
     <tr>
-    <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-2.html>2</a></td>
-    <td>TBD</td>
-    <td>TBD</td>
-    <td><a href="https://www.w3schools.com/">📚</a></td>
-    <td><a href="https://www.w3schools.com/">📺</a></td>
+    <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-2-am.html>2-AM</a></td>
+    <td>12/10</td>
+    <td>Lindsay Hayes</td>
+    <td>Seurat Objects and Clustering</td>
+    <td><a href="https://eleanacab.github.io/scRNAseq-wshp/pre-readings/day-2-pre-reading.html">📚</a></td>
+    <td><a href="LINK">📺</a></td>
     </tr>
     <tr>
-    <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-3.html>3</a></td>
-    <td>TBD</td>
-    <td>TBD</td>
-    <td><a href="https://www.w3schools.com/">📚</a></td>
-    <td><a href="https://www.w3schools.com/">📺</a></td>
+    <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-2-pm.html>2-PM</a></td>
+    <td>12/10</td>
+    <td>Lindsay Hayes</td>
+    <td>Annotating cells and Subclustering</td>
+    <td><a href="https://eleanacab.github.io/scRNAseq-wshp/pre-readings/day-2-pre-reading.html">📚</a></td>
+    <td><a href="LINK">📺</a></td>
+    </tr>
+    <tr>
+    <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-3-am.html>3-AM</a></td>
+    <td>12/12</td>
+    <td>Kurt Zimmerman</td>
+    <td>Downstream Analysis Pipelines - Pseudotime Analysis using Monocle and Cell-Cell Communication using Nichenet/Cellchats</td>
+    <td><a href="https://eleanacab.github.io/scRNAseq-wshp/pre-readings/day-3-pre-reading.html">📚</a></td>
+    <td><a href="LINK">📺</a></td>
+    </tr>
+    <tr>
+    <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-3-pm.html>3-PM</a></td>
+    <td>12/12</td>
+    <td>Kurt Zimmerman</td>
+    <td>Downstream Analysis Pipelines - Pathway/Transcription Factor Inference</td>
+    <td><a href="https://eleanacab.github.io/scRNAseq-wshp/pre-readings/day-3-pre-reading.html">📚</a></td>
+    <td><a href="LINK">📺</a></td>
     </tr>
   </tbody>
 </table>
 ```
+

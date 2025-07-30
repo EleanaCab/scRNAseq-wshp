@@ -1,0 +1,60 @@
+---
+title: "Meet the Team!"
+format: html
+page-layout: full
+---
+
+:::: {.columns}
+::: {.column width="2.5%"}
+:::
+::: {.column width="45%"}
+
+![](images/team/headshot.png){width="200"} 
+
+#### Hande Acar
+Senior Bioinformatics Analyst at IRCF
+
+![](images/team/lhayes.png){width="200"} 
+
+#### Lindsay Hayes
+Associate Professor with Cell Biology
+
+![](images/team/headshot.png){height="200"}
+
+#### Jun Li
+Professor and Chair of Genetics and Genome Sciences 
+
+![](images/team/headshot.png){width="200"} 
+
+#### Kurt Zimmerman
+Associate Professor with Medicine Nephrology
+
+:::
+::: {.column width="5%"}
+:::
+::: {.column width="45%"}
+
+![](images/team/ecabello.png){width="200"}
+
+#### Eleana Cabello
+Bioinformatics Analyst with Dr. Boa Vu's Lab and IRCF
+
+![](images/team/headshot.png){width="200"} 
+
+#### Kylie Williams
+Contract / Grant Manager with Gerosciences
+
+![](images/team/headshot.png){width="200"} 
+
+#### Dave Stanford
+Senior Bioinformatics Analyst with Ophthalmology
+
+![](images/team/headshot.png){width="200"} 
+
+#### Hua Zhong
+Research Data Specialist
+
+:::
+::: {.column width="2.5%"}
+:::
+:::

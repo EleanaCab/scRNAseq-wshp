@@ -9,7 +9,7 @@ website:
   open-graph: true
   
   sidebar:
-    logo: "images/logo_2.png"
+    logo: "images/logo/logo_2.png"
     background: "#d6afa7"
     pinned: true
     align: center
@@ -23,30 +23,38 @@ website:
       - section: "Course information"
         icon: house
         contents:
-          - href: course-prereqs.qmd
+          - href: workshop-prereqs.qmd
             text: Prerequisites
-          - href: course-overview.qmd
+          - href: workshop-overview.qmd
             text: Overview
-          - href: course-syllabus.qmd
-            text: Syllabus
-          - href: course-team.qmd
-            text: Teaching team
+          - href: workshop-team.qmd
+            text: Workshop team
           - href: index.qmd
             text: Schedule
       - section: "Pre-reading"
         icon: book
         contents:
-          - href: pre-readings/example.qmd
-            text: Day 1 Pre-reading
+          - href: pre-readings/day-1-pre-reading.qmd
+            text: Day 1
+          - href: pre-readings/day-2-pre-reading.qmd
+            text: Day 2
+          - href: pre-readings/day-3-pre-reading.qmd
+            text: Day 3
       - section: "Daily materials"
         icon: pencil
         contents:
-          - href: days-content/day-1.qmd
-            text: "Day 1"
-          - href: days-content/day-2.qmd
-            text: "Day 2"
-          - href: days-content/day-3.qmd
-            text: "Day 3"
+          - href: days-content/day-1-am.qmd
+            text: "Day 1 - Morning"
+          - href: days-content/day-1-pm.qmd
+            text: "Day 1 - Afternoon"
+          - href: days-content/day-2-am.qmd
+            text: "Day 2 - Morning"
+          - href: days-content/day-2-pm.qmd
+            text: "Day 2 - Afternoon"
+          - href: days-content/day-3-am.qmd
+            text: "Day 3 - Morning"
+          - href: days-content/day-3-pm.qmd
+            text: "Day 3 - Afternoon"
       - section: "Supplemental notes"
         icon: clipboard2-plus
         contents:
@@ -58,6 +66,7 @@ format:
     theme:
       light: [cosmo, theme.scss]
       dark: [cosmo, theme-dark.scss]
+    mainfont: "Inter"
     code-copy: true
     code-overflow: wrap
     toc: true
