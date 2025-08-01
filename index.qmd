@@ -2,15 +2,14 @@
 title: "Single Cell RNA-Seq Workshop"
 format: html
 page-layout: full
+toc: false
 ---
 
 ::::{.columns}
-:::{.column width="30%"}
-![](images/details/room.png){width="250" .rounded-image}
+:::{.column width="25%"}
+![](images/details/room.png){width="240" .rounded-image}
 :::
-:::{.column width="5%"}
-:::
-:::{.column width="65%".center-text}
+:::{.column width="75%"}
 **Dates**: 
 
 December 9th, 10th, and 12th
@@ -33,8 +32,8 @@ Inasmuch Foundation Atrium in Robert M Bird Library
   <colgroup>
        <col span="1" style="width: 10%;">
        <col span="1" style="width: 10%;">
-       <col span="1" style="width: 15%;">
-       <col span="1" style="width: 45%;">
+       <col span="1" style="width: 25%;">
+       <col span="1" style="width: 35%;">
        <col span="1" style="width: 15%;">
        <col span="1" style="width: 5%;">
   </colgroup>

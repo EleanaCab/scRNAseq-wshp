@@ -9,7 +9,7 @@ page-layout: full
 :::
 ::: {.column width="45%"}
 
-![](images/team/headshot.png){width="200"} 
+![](images/team/hacar.png){width="200"} 
 
 #### Hande Acar
 Senior Bioinformatics Analyst at IRCF
@@ -24,7 +24,7 @@ Associate Professor with Cell Biology
 #### Jun Li
 Professor and Chair of Genetics and Genome Sciences 
 
-![](images/team/headshot.png){width="200"} 
+![](images/team/kzimmerman.png){width="200"} 
 
 #### Kurt Zimmerman
 Associate Professor with Medicine Nephrology
@@ -37,7 +37,7 @@ Associate Professor with Medicine Nephrology
 ![](images/team/ecabello.png){width="200"}
 
 #### Eleana Cabello
-Bioinformatics Analyst with Dr. Boa Vu's Lab and IRCF
+Bioinformatics Analyst with Dr. Bao Vu's Lab and IRCF
 
 ![](images/team/headshot.png){width="200"} 
 
@@ -49,7 +49,7 @@ Contract / Grant Manager with Gerosciences
 #### Dave Stanford
 Senior Bioinformatics Analyst with Ophthalmology
 
-![](images/team/headshot.png){width="200"} 
+![](images/team/headshot.png){width="200"}
 
 #### Hua Zhong
 Research Data Specialist
