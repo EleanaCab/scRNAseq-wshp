@@ -1,0 +1,12 @@
+---
+title: "Helpful Links"
+format: html
+---
+
+## OU's OSCER HPC 
+
+- [Getting Started on OSCER](https://www.ou.edu/oscer/getting_started){target="_blank"}
+
+## Clustering
+
+- [Understanding UMAP](https://pair-code.github.io/understanding-umap/){target="_blank"}

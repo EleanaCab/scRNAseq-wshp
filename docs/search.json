@@ -341,113 +341,43 @@
     ]
   },
   {
-    "objectID": "days-content/day-1-am.html#learning-objectives",
-    "href": "days-content/day-1-am.html#learning-objectives",
-    "title": "Day 1",
-    "section": "Learning objectives",
-    "text": "Learning objectives\n\n\n\n\n\n\nLearning objectives\n\n\n\nAt the end of this lesson you will:",
-    "crumbs": [
-      "Daily materials",
-      "Day 1 - Morning"
-    ]
-  },
-  {
-    "objectID": "days-content/day-1-am.html#slides",
-    "href": "days-content/day-1-am.html#slides",
-    "title": "Day 1",
-    "section": "Slides",
-    "text": "Slides\n\nSLIDES",
-    "crumbs": [
-      "Daily materials",
-      "Day 1 - Morning"
-    ]
-  },
-  {
-    "objectID": "days-content/day-1-am.html#acknowledgements",
-    "href": "days-content/day-1-am.html#acknowledgements",
-    "title": "Day 1",
-    "section": "Acknowledgements",
-    "text": "Acknowledgements\nMaterial for this lecture was borrowed and adopted from\n\nsw carpentry: https://carpentries-incubator.github.io/bioc-intro/20-r-rstudio.html\ndata carpentry: https://datacarpentry.github.io/genomics-r-intro/00-introduction.html",
-    "crumbs": [
-      "Daily materials",
-      "Day 1 - Morning"
-    ]
-  },
-  {
-    "objectID": "days-content/day-1-am.html#summary",
-    "href": "days-content/day-1-am.html#summary",
-    "title": "Day 1",
-    "section": "Summary",
-    "text": "Summary",
-    "crumbs": [
-      "Daily materials",
-      "Day 1 - Morning"
-    ]
-  },
-  {
-    "objectID": "days-content/day-1-am.html#additional-practice",
-    "href": "days-content/day-1-am.html#additional-practice",
-    "title": "Day 1",
-    "section": "Additional practice",
-    "text": "Additional practice",
-    "crumbs": [
-      "Daily materials",
-      "Day 1 - Morning"
-    ]
-  },
-  {
-    "objectID": "days-content/day-1-pm.html#learning-objectives",
-    "href": "days-content/day-1-pm.html#learning-objectives",
-    "title": "Day 1 - Afternoon",
-    "section": "Learning objectives",
-    "text": "Learning objectives\n\n\n\n\n\n\nLearning objectives\n\n\n\nAt the end of this lesson you will:",
-    "crumbs": [
-      "Daily materials",
-      "Day 1 - Afternoon"
-    ]
-  },
-  {
-    "objectID": "days-content/day-1-pm.html#slides",
-    "href": "days-content/day-1-pm.html#slides",
-    "title": "Day 1",
-    "section": "Slides",
-    "text": "Slides\n\nSLIDES",
-    "crumbs": [
-      "Daily materials",
-      "Day 1 - Afternoon"
-    ]
-  },
-  {
-    "objectID": "days-content/day-1-pm.html#summary",
-    "href": "days-content/day-1-pm.html#summary",
-    "title": "Day 1 - Afternoon",
-    "section": "Summary",
-    "text": "Summary",
-    "crumbs": [
-      "Daily materials",
-      "Day 1 - Afternoon"
-    ]
-  },
-  {
-    "objectID": "days-content/day-1-pm.html#additional-practice",
-    "href": "days-content/day-1-pm.html#additional-practice",
-    "title": "Day 1 - Afternoon",
-    "section": "Additional practice",
-    "text": "Additional practice",
-    "crumbs": [
-      "Daily materials",
-      "Day 1 - Afternoon"
-    ]
-  },
-  {
-    "objectID": "days-content/day-1-pm.html",
-    "href": "days-content/day-1-pm.html",
-    "title": "Day 1",
+    "objectID": "supplemental-material/supplemental-links.html",
+    "href": "supplemental-material/supplemental-links.html",
+    "title": "Additional Helpful Links",
     "section": "",
-    "text": "Pre-lecture Reading\n\n\nLecture\n\n\n\n\n\n\nLearning objectives\n\n\n\nAt the end of this lesson you will:\n\n\nSlides: SLIDES\n\n\nSummary\n\n\nAdditional practice",
+    "text": "OU’s OSCER HPC\n\nGetting Started on OSCERs\n\n\n\nClustering\n\nUnderstandign UMAP"
+  },
+  {
+    "objectID": "supplemental-material/additional-links.html",
+    "href": "supplemental-material/additional-links.html",
+    "title": "Helpful Links",
+    "section": "",
+    "text": "Getting Started on OSCER",
     "crumbs": [
-      "Daily materials",
-      "Day 1 - Afternoon"
+      "Supplemental notes",
+      "Additional Links"
+    ]
+  },
+  {
+    "objectID": "supplemental-material/additional-links.html#ous-oscer-hpc",
+    "href": "supplemental-material/additional-links.html#ous-oscer-hpc",
+    "title": "Helpful Links",
+    "section": "",
+    "text": "Getting Started on OSCER",
+    "crumbs": [
+      "Supplemental notes",
+      "Additional Links"
+    ]
+  },
+  {
+    "objectID": "supplemental-material/additional-links.html#clustering",
+    "href": "supplemental-material/additional-links.html#clustering",
+    "title": "Helpful Links",
+    "section": "Clustering",
+    "text": "Clustering\n\nUnderstanding UMAP",
+    "crumbs": [
+      "Supplemental notes",
+      "Additional Links"
     ]
   }
 ]

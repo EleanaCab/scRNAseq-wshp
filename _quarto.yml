@@ -5,6 +5,7 @@ project:
 website:
   bread-crumbs: false
   page-navigation: true
+  draft-mode: unlinked
   
   open-graph: true
   
@@ -58,8 +59,8 @@ website:
       - section: "Supplemental notes"
         icon: clipboard2-plus
         contents:
-          - href: supplemental-material/example.qmd
-            text: Supp Material Example
+          - href: supplemental-material/additional-links.qmd
+            text: Additional Links
 
 format:
   html:
