@@ -1,24 +1,35 @@
 [
   {
-    "objectID": "days-content/day-1-pm.html#slides",
-    "href": "days-content/day-1-pm.html#slides",
-    "title": "Day 1",
-    "section": "Slides",
-    "text": "Slides\n\nSLIDES",
+    "objectID": "supplemental-material/additional-links.html",
+    "href": "supplemental-material/additional-links.html",
+    "title": "Helpful Links",
+    "section": "",
+    "text": "Getting Started on OSCER",
     "crumbs": [
-      "Daily materials",
-      "Day 1 - Afternoon"
+      "Supplemental notes",
+      "Additional Links"
     ]
   },
   {
-    "objectID": "days-content/day-1-am.html#slides",
-    "href": "days-content/day-1-am.html#slides",
-    "title": "Day 1",
-    "section": "Slides",
-    "text": "Slides\n\nSLIDES",
+    "objectID": "supplemental-material/additional-links.html#ous-oscer-hpc",
+    "href": "supplemental-material/additional-links.html#ous-oscer-hpc",
+    "title": "Helpful Links",
+    "section": "",
+    "text": "Getting Started on OSCER",
     "crumbs": [
-      "Daily materials",
-      "Day 1 - Morning"
+      "Supplemental notes",
+      "Additional Links"
+    ]
+  },
+  {
+    "objectID": "supplemental-material/additional-links.html#clustering",
+    "href": "supplemental-material/additional-links.html#clustering",
+    "title": "Helpful Links",
+    "section": "Clustering",
+    "text": "Clustering\n\nUnderstanding UMAP",
+    "crumbs": [
+      "Supplemental notes",
+      "Additional Links"
     ]
   },
   {
@@ -30,17 +41,6 @@
     "crumbs": [
       "Course information",
       "Schedule"
-    ]
-  },
-  {
-    "objectID": "workshop-team.html",
-    "href": "workshop-team.html",
-    "title": "Meet the Team!",
-    "section": "",
-    "text": "Hande Acar\nSenior Bioinformatics Analyst at IRCF\n\n\n\nLindsay Hayes\nAssociate Professor with Cell Biology\n\n\n\nJun Li\nProfessor and Chair of Genetics and Genome Sciences\n\n\n\nKurt Zimmerman\nAssociate Professor with Medicine Nephrology\n\n\n\n\n\n\nEleana Cabello\nBioinformatics Analyst with Dr. Bao Vu’s Lab and IRCF\n\n\n\nKylie Williams\nContract / Grant Manager with Gerosciences\n\n\n\nDave Stanford\nSenior Bioinformatics Analyst with Ophthalmology\n\n\n\nHua Zhong\nResearch Data Specialist",
-    "crumbs": [
-      "Course information",
-      "Workshop team"
     ]
   },
   {
@@ -96,6 +96,17 @@
     "crumbs": [
       "Course information",
       "Prerequisites"
+    ]
+  },
+  {
+    "objectID": "workshop-team.html",
+    "href": "workshop-team.html",
+    "title": "Meet the Team!",
+    "section": "",
+    "text": "Hande Acar\nSenior Bioinformatics Analyst at IRCF\n\n\n\nLindsay Hayes\nAssociate Professor with Cell Biology\n\n\n\nJun Li\nProfessor and Chair of Genetics and Genome Sciences\n\n\n\nKurt Zimmerman\nAssociate Professor with Medicine Nephrology\n\n\n\n\n\n\nEleana Cabello\nBioinformatics Analyst with Dr. Bao Vu’s Lab and IRCF\n\n\n\nKylie Williams\nContract / Grant Manager with Gerosciences\n\n\n\nDave Stanford\nSenior Bioinformatics Analyst with Ophthalmology\n\n\n\nHua Zhong\nResearch Data Specialist",
+    "crumbs": [
+      "Course information",
+      "Workshop team"
     ]
   }
 ]
