@@ -30,10 +30,10 @@ Inasmuch Foundation Atrium in Robert M Bird Library
 ```{=html}
 <table style="width:100%; margin">
   <colgroup>
-       <col span="1" style="width: 10%;">
-       <col span="1" style="width: 10%;">
-       <col span="1" style="width: 25%;">
-       <col span="1" style="width: 35%;">
+       <col span="1" style="width: 15%;">
+       <col span="1" style="width: 15%;">
+       <col span="1" style="width: 20%;">
+       <col span="1" style="width: 30%;">
        <col span="1" style="width: 15%;">
        <col span="1" style="width: 5%;">
   </colgroup>
@@ -49,7 +49,7 @@ Inasmuch Foundation Atrium in Robert M Bird Library
   </thead>
   <tbody>
     <tr>
-    <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-1-am.html>1-AM</a></td>
+    <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-1-am.html>1-Morning</a></td>
     <td>12/09</td>
     <td>Kylie Williams<br>Hande Acar</td>
     <td>Logging into OSCER, Sample Prep, and Sequencing</td>
@@ -57,7 +57,7 @@ Inasmuch Foundation Atrium in Robert M Bird Library
     <td><a href="LINK">📺</a></td>
     </tr>
     <tr>
-    <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-1-pm.html>1-PM</a></td>
+    <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-1-pm.html>1-Afternoon</a></td>
     <td>12/09</td>
     <td>Kylie Williams<br>Hande Acar</td>
     <td>Using Cellranger, Quality Control Measures</td>
@@ -65,7 +65,7 @@ Inasmuch Foundation Atrium in Robert M Bird Library
     <td><a href="LINK">📺</a></td>
     </tr>
     <tr>
-    <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-2-am.html>2-AM</a></td>
+    <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-2-am.html>2-Morning</a></td>
     <td>12/10</td>
     <td>Lindsay Hayes</td>
     <td>Seurat Objects and Clustering</td>
@@ -73,7 +73,7 @@ Inasmuch Foundation Atrium in Robert M Bird Library
     <td><a href="LINK">📺</a></td>
     </tr>
     <tr>
-    <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-2-pm.html>2-PM</a></td>
+    <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-2-pm.html>2-Afternoon</a></td>
     <td>12/10</td>
     <td>Lindsay Hayes</td>
     <td>Annotating cells and Subclustering</td>
@@ -81,7 +81,7 @@ Inasmuch Foundation Atrium in Robert M Bird Library
     <td><a href="LINK">📺</a></td>
     </tr>
     <tr>
-    <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-3-am.html>3-AM</a></td>
+    <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-3-am.html>3-Morning</a></td>
     <td>12/12</td>
     <td>Kurt Zimmerman</td>
     <td>Downstream Analysis Pipelines - Pseudotime Analysis using Monocle and Cell-Cell Communication using Nichenet/Cellchats</td>
@@ -89,7 +89,7 @@ Inasmuch Foundation Atrium in Robert M Bird Library
     <td><a href="LINK">📺</a></td>
     </tr>
     <tr>
-    <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-3-pm.html>3-PM</a></td>
+    <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-3-pm.html>3-Afternoon</a></td>
     <td>12/12</td>
     <td>Kurt Zimmerman</td>
     <td>Downstream Analysis Pipelines - Pathway/Transcription Factor Inference</td>
