@@ -59,7 +59,18 @@
     "href": "workshop-prereqs.html#swirl-courses",
     "title": "Workshop Prerequisites",
     "section": "Swirl Courses",
-    "text": "Swirl Courses\nThe following Swirl course will teach you the basics of R programming. Follow the steps in the link below to install the course and submit your participation:\n\nR Programming Swirl Course\n\nThis second Swirl course will teach you how to conduct exploratory data analysis on sample data sets, plotting in R using bases packages, and how to use the the famous ggplot2 package. Follow the steps in the link below to install the course and submit your participation:\n\nExploratory Data Analysis\n\nCompletion of each course will be counted on our end through a Google form submission part of each lesson. If you have issues submitting the Google Form at the end of any lesson, send an email to: eleana-cabello@ouhsc.edu",
+    "text": "Swirl Courses\nThe following Swirl course will teach you the basics of R programming. Follow the steps in the link below to install the course and submit your participation:\n\nR Programming Swirl Course\n\nThis second Swirl course will teach you how to conduct exploratory data analysis on sample data sets, plotting in R using bases packages, and how to use the the famous ggplot2 package. Follow the steps in the link below to install the course and submit your participation:\n\nExploratory Data Analysis\n\nCompletion of each course will be counted on our end through a Google form submission part of each lesson. If you have issues submitting the Google Form at the end of any lesson, send an email to: eleana-cabello@ou.edu",
+    "crumbs": [
+      "Course information",
+      "Prerequisites"
+    ]
+  },
+  {
+    "objectID": "workshop-prereqs.html#create-an-account-with-oscer",
+    "href": "workshop-prereqs.html#create-an-account-with-oscer",
+    "title": "Workshop Prerequisites",
+    "section": "Create an account with OSCER",
+    "text": "Create an account with OSCER\nFollow the directions on the OSCER website to create an account, linked here: OSCER New Account Setup\nYou will need this account for the Introduction to Bash Programming and HPC Workshop and the Single Cell RNA-Seq Workshop.\nWhen asked in the form for a sponsoring PI or faculty member for the account, please put the PI of the research lab you currently belong to.\nOnce you have received confirmation from OSCER that your account has been set up and you can log into it successfully, send an email to any of the following with your username : kylie-m-williams@ou.edu or eleana-cabello@ou.edu\nIf we do not receive your username information, we will not be able to add you to the OSCER group for this workshop.",
     "crumbs": [
       "Course information",
       "Prerequisites"
@@ -70,7 +81,7 @@
     "href": "workshop-prereqs.html#introduction-to-bash-programming-and-hpc-workshop",
     "title": "Workshop Prerequisites",
     "section": "Introduction to Bash Programming and HPC Workshop",
-    "text": "Introduction to Bash Programming and HPC Workshop\nPlease sign up and attend one of the session listed below:\n\nThere will be two sessions:\n\nOctober 3rd 2025 (10AM to 3PM)\nNovember 14th 2025 (10AM to 3PM)\n\nDoodle Sign Up\n\nIf you have trouble signing up please send an email to: eleana-cabello@ouhsc.edu or hande-acar@ouhsc.edu",
+    "text": "Introduction to Bash Programming and HPC Workshop\nPlease sign up and attend one of the session listed below:\n\nThere will be two sessions:\n\nOctober 3rd 2025 (10AM to 3PM)\nNovember 14th 2025 (10AM to 3PM)\n\nDoodle Sign Up\n\nIf you have trouble signing up please send an email to: eleana-cabello@ou.edu or hande-acar@ou.edu",
     "crumbs": [
       "Course information",
       "Prerequisites"
