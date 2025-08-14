@@ -35,31 +35,6 @@ Please make sure to have R and RStudio properly set up on your device before the
 
 - [Install R and RStudio Video](https://www.youtube.com/watch?v=eQFu_zzF96o){target="_blank"}
 - [Install R and RStudio Guide](https://swirlstats.com/students.html){target="_blank"} - Complete steps 1 and 2
- 
-## Access OSCER Workshop Guest Account
-
-Good news! There is nothing you need to do to setup an account. A guest account has already been made for you by us for FREE! 
-
-::: {.callout-note title="Steps to Log In"}
-1. Gather your log in information, username and password sent to you. 
-2. Find the terminal on your computer.
-
-    ![](images/prereqs/local_terminal.png){width=700}
-    
-3. Type the following command to access you OSCER account
-
-    ```{.bash}
-    ssh USERNAME@sooner.oscer.ou.edu #Replace USERNAME with your guest username
-    ```
-    
-4. It will ask for your password, start typing it. It will not appear on your screen do not be alarmed this is normal. Just make sure to enter it correctly then hit enter.
-    
-    ![](images/prereqs/oscer_login_success.png){width=600}
-    
-5. You've logged into your account!
-
-    ![](images/prereqs/oscer_terminal.png){width=600}
-:::
 
 # CHECKLIST BEFORE WORKSHOP
 
@@ -68,4 +43,3 @@ Please complete the list below before the first day of the workshop. If you have
 - [ ] Completed R Programming Swirl course
 - [ ] Completed Exploratory Data Analysis Swirl course
 - [ ] R and RStudio Working on Local Laptop
-- [ ] Access to OSCER account
