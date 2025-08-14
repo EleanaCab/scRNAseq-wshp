@@ -37,7 +37,7 @@
     "href": "index.html",
     "title": "Single Cell RNA-Seq Workshop",
     "section": "",
-    "text": "Dates:\nDecember 9th, 10th, and 12th\nTimes:\n9:00AM- 4:00PM\nLocation:\nInasmuch Foundation Atrium in Robert M Bird Library\n\n\n\nSchedule\n\n\n\n\n\n\n\n\n\n\n\nDay\nDate\nInstructors\nTopic\nPre-reading\nSlides\n\n\n\n\n1-Morning\n12/09\nKylie Williams\nHande Acar\nLogging into OSCER, Sample Prep, and Sequencing\n📚\n📺\n\n\n1-Afternoon\n12/09\nKylie Williams\nHande Acar\nUsing Cellranger, Quality Control Measures\n📚\n📺\n\n\n2-Morning\n12/10\nLindsay Hayes\nSeurat Objects and Clustering\n📚\n📺\n\n\n2-Afternoon\n12/10\nLindsay Hayes\nAnnotating cells and Subclustering\n📚\n📺\n\n\n3-Morning\n12/12\nKurt Zimmerman\nDownstream Analysis Pipelines - Pseudotime Analysis using Monocle and Cell-Cell Communication using Nichenet/Cellchats\n📚\n📺\n\n\n3-Afternoon\n12/12\nKurt Zimmerman\nDownstream Analysis Pipelines - Pathway/Transcription Factor Inference\n📚\n📺",
+    "text": "Dates:\nDecember 9th, 10th, and 12th\nTimes:\n9:00AM- 4:00PM\nLocation:\nInasmuch Foundation Atrium in Robert M Bird Library\n\n\n\nSchedule\n\n\n\n\n\n\n\n\n\n\n\nDay\nDate\nInstructors\nTopic\nPre-reading\nSlides\n\n\n\n\n1-Morning\n12/09\nKylie Williams\nLogging into OSCER, Sample Prep, and Sequencing\n📚\n📺\n\n\n1-Afternoon\n12/09\nHande Acar\nUsing Cellranger, Quality Control Measures\n📚\n📺\n\n\n2-Morning\n12/10\nLindsay Hayes\nSeurat Objects and Clustering\n📚\n📺\n\n\n2-Afternoon\n12/10\nLindsay Hayes\nAnnotating cells and Subclustering\n📚\n📺\n\n\n3-Morning\n12/12\nKurt Zimmerman\nDownstream Analysis Pipelines - Pseudotime Analysis using Monocle and Cell-Cell Communication using Nichenet/Cellchats\n📚\n📺\n\n\n3-Afternoon\n12/12\nKurt Zimmerman\nDownstream Analysis Pipelines - Pathway/Transcription Factor Inference\n📚\n📺",
     "crumbs": [
       "Course information",
       "Schedule"
@@ -48,7 +48,7 @@
     "href": "workshop-prereqs.html",
     "title": "Workshop Prerequisites",
     "section": "",
-    "text": "Please complete the following online courses and workshops before 11/01/2025",
+    "text": "Please complete the following online courses and workshops before 11/15/2025",
     "crumbs": [
       "Course information",
       "Prerequisites"
