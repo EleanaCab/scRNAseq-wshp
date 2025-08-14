@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -106,7 +72,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <meta property="og:title" content="Workshop Prerequisites">
 <meta property="og:description" content="">
-<meta property="og:image" content="images/prereqs/local_terminal.png">
 </head>
 
 <body class="nav-sidebar docked">
@@ -165,12 +130,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./workshop-overview.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Overview</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./workshop-team.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Workshop team</span></a>
   </div>
@@ -193,24 +152,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./pre-readings/day-1-pre-reading.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 1</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./pre-readings/day-2-pre-reading.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 2</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./pre-readings/day-3-pre-reading.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 3</span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -223,42 +164,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./days-content/day-1-am.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 1 - Morning</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./days-content/day-1-pm.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 1 - Afternoon</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./days-content/day-2-am.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 2 - Morning</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./days-content/day-2-pm.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 2 - Afternoon</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./days-content/day-3-am.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 3 - Morning</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./days-content/day-3-pm.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 3 - Afternoon</span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -290,9 +195,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
    
   <ul>
   <li><a href="#swirl-courses" id="toc-swirl-courses" class="nav-link active" data-scroll-target="#swirl-courses">Swirl Courses</a></li>
+  <li><a href="#create-an-account-with-oscer" id="toc-create-an-account-with-oscer" class="nav-link" data-scroll-target="#create-an-account-with-oscer">Create an account with OSCER</a></li>
   <li><a href="#introduction-to-bash-programming-and-hpc-workshop" id="toc-introduction-to-bash-programming-and-hpc-workshop" class="nav-link" data-scroll-target="#introduction-to-bash-programming-and-hpc-workshop">Introduction to Bash Programming and HPC Workshop</a></li>
   <li><a href="#setup-r-and-rstudio-locally" id="toc-setup-r-and-rstudio-locally" class="nav-link" data-scroll-target="#setup-r-and-rstudio-locally">Setup R and RStudio Locally</a></li>
-  <li><a href="#access-oscer-workshop-guest-account" id="toc-access-oscer-workshop-guest-account" class="nav-link" data-scroll-target="#access-oscer-workshop-guest-account">Access OSCER Workshop Guest Account</a></li>
   <li><a href="#checklist-before-workshop" id="toc-checklist-before-workshop" class="nav-link" data-scroll-target="#checklist-before-workshop">CHECKLIST BEFORE WORKSHOP</a></li>
   </ul>
 </nav>
@@ -319,7 +224,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p><strong>Please complete the following online courses and workshops before 11/01/2025</strong></p>
+<p><strong>Please complete the following online courses and workshops before 11/15/2025</strong></p>
 <section id="swirl-courses" class="level2">
 <h2 class="anchored" data-anchor-id="swirl-courses">Swirl Courses</h2>
 <p>The following Swirl course will teach you the basics of R programming. Follow the steps in the link below to install the course and submit your participation:</p>
@@ -330,7 +235,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <ul>
 <li><a href="https://lindsaynhayes.github.io/introR2025/projects/index_A02.html" target="_blank">Exploratory Data Analysis</a></li>
 </ul>
-<p>Completion of each course will be counted on our end through a Google form submission part of each lesson. If you have issues submitting the Google Form at the end of any lesson, send an email to: <code>eleana-cabello@ouhsc.edu</code></p>
+<p>Completion of each course will be counted on our end through a Google form submission part of each lesson. If you have issues submitting the Google Form at the end of any lesson, send an email to: <code>eleana-cabello@ou.edu</code></p>
+</section>
+<section id="create-an-account-with-oscer" class="level2">
+<h2 class="anchored" data-anchor-id="create-an-account-with-oscer">Create an account with OSCER</h2>
+<p>Follow the directions on the OSCER website to create an account, linked here: <a href="https://www.ou.edu/oscer/support/accounts/new_account" target="_blank">OSCER New Account Setup</a></p>
+<p>You will need this account for the Introduction to Bash Programming and HPC Workshop and the Single Cell RNA-Seq Workshop.</p>
+<p>When asked in the form for a sponsoring PI or faculty member for the account, please put the PI of the research lab you currently belong to.</p>
+<p>Once you have received confirmation from OSCER that your account has been set up and you can log into it successfully, <strong>send an email to any of the following with your username</strong> : <code>kylie-m-williams@ou.edu</code> or <code>eleana-cabello@ou.edu</code></p>
+<p>If we do not receive your username information, we will not be able to add you to the OSCER group for this workshop.</p>
 </section>
 <section id="introduction-to-bash-programming-and-hpc-workshop" class="level2">
 <h2 class="anchored" data-anchor-id="introduction-to-bash-programming-and-hpc-workshop">Introduction to Bash Programming and HPC Workshop</h2>
@@ -343,7 +256,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul></li>
 <li><a href="https://doodle.com/sign-up-sheet/participate/b2833b02-42ef-4831-9160-282a9f92a28b/select" target="_blank">Doodle Sign Up</a></li>
 </ul>
-<p>If you have trouble signing up please send an email to: <code>eleana-cabello@ouhsc.edu</code> or <code>hande-acar@ouhsc.edu</code></p>
+<p>If you have trouble signing up please send an email to: <code>eleana-cabello@ou.edu</code> or <code>hande-acar@ou.edu</code></p>
 </section>
 <section id="setup-r-and-rstudio-locally" class="level2">
 <h2 class="anchored" data-anchor-id="setup-r-and-rstudio-locally">Setup R and RStudio Locally</h2>
@@ -353,41 +266,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><a href="https://swirlstats.com/students.html" target="_blank">Install R and RStudio Guide</a> - Complete steps 1 and 2</li>
 </ul>
 </section>
-<section id="access-oscer-workshop-guest-account" class="level2">
-<h2 class="anchored" data-anchor-id="access-oscer-workshop-guest-account">Access OSCER Workshop Guest Account</h2>
-<p>Good news! There is nothing you need to do to setup an account. A guest account has already been made for you by us for FREE!</p>
-<div class="callout callout-style-default callout-note callout-titled" title="Steps to Log In">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Steps to Log In
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ol type="1">
-<li><p>Gather your log in information, username and password sent to you.</p></li>
-<li><p>Find the terminal on your computer.</p>
-<p><img src="images/prereqs/local_terminal.png" class="img-fluid" width="700"></p></li>
-<li><p>Type the following command to access you OSCER account</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh</span> USERNAME@sooner.oscer.ou.edu <span class="co">#Replace USERNAME with your guest username</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-<li><p>It will ask for your password, start typing it. It will not appear on your screen do not be alarmed this is normal. Just make sure to enter it correctly then hit enter.</p>
-<p><img src="images/prereqs/oscer_login_success.png" class="img-fluid" width="600"></p></li>
-<li><p>You’ve logged into your account!</p>
-<p><img src="images/prereqs/oscer_terminal.png" class="img-fluid" width="600"></p></li>
-</ol>
-</div>
-</div>
-</section>
 <section id="checklist-before-workshop" class="level1">
 <h1>CHECKLIST BEFORE WORKSHOP</h1>
-<p>Please complete the list below before the first day of the workshop. If you have any issues completeing the list above email any of the following people: <code>eleana-cabello@ouhsc.edu</code> or <code>hande-acar@ouhsc.edu</code></p>
+<p>Please complete the list below before the first day of the workshop. If you have any issues completeing the list above email any of the following people: <code>eleana-cabello@ou.edu</code> or <code>hande-acar@ou.edu</code></p>
 <ul class="task-list">
 <li><label><input type="checkbox">Completed R Programming Swirl course</label></li>
 <li><label><input type="checkbox">Completed Exploratory Data Analysis Swirl course</label></li>
+<li><label><input type="checkbox">Signed up for an OSCER account and have successfully logged into it before any workshops</label></li>
+<li><label><input type="checkbox">Emailed your OSCER username to <code>kylie-m-williams@ou.edu</code> or <code>eleana-cabello@ou.edu</code></label></li>
+<li><label><input type="checkbox">Signed up for one of the sessions of the Introduction to Bash Programming and HPC Workshop</label></li>
 <li><label><input type="checkbox">R and RStudio Working on Local Laptop</label></li>
-<li><label><input type="checkbox">Access to OSCER account</label></li>
 </ul>
 
 

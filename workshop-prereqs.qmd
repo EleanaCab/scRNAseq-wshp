@@ -15,7 +15,19 @@ This second Swirl course will teach you how to conduct exploratory data analysis
 
 - [Exploratory Data Analysis](https://lindsaynhayes.github.io/introR2025/projects/index_A02.html){target="_blank"}
 
-Completion of each course will be counted on our end through a Google form submission part of each lesson. If you have issues submitting the Google Form at the end of any lesson, send an email to: `eleana-cabello@ouhsc.edu`
+Completion of each course will be counted on our end through a Google form submission part of each lesson. If you have issues submitting the Google Form at the end of any lesson, send an email to: `eleana-cabello@ou.edu`
+
+## Create an account with OSCER
+
+Follow the directions on the OSCER website to create an account, linked here: [OSCER New Account Setup](https://www.ou.edu/oscer/support/accounts/new_account){target="_blank"}
+
+You will need this account for the Introduction to Bash Programming and HPC Workshop and the Single Cell RNA-Seq Workshop. 
+
+When asked in the form for a sponsoring PI or faculty member for the account, please put the PI of the research lab you currently belong to.
+
+Once you have received confirmation from OSCER that your account has been set up and you can log into it successfully, **send an email to any of the following with your username** : `kylie-m-williams@ou.edu` or `eleana-cabello@ou.edu` 
+
+If we do not receive your username information, we will not be able to add you to the OSCER group for this workshop. 
 
 ## Introduction to Bash Programming and HPC Workshop
 
@@ -27,7 +39,7 @@ Please sign up and attend one of the session listed below:
   
 - [Doodle Sign Up](https://doodle.com/sign-up-sheet/participate/b2833b02-42ef-4831-9160-282a9f92a28b/select){target="_blank"}
 
-If you have trouble signing up please send an email to: `eleana-cabello@ouhsc.edu` or `hande-acar@ouhsc.edu`
+If you have trouble signing up please send an email to: `eleana-cabello@ou.edu` or `hande-acar@ou.edu`
 
 ## Setup R and RStudio Locally
 
@@ -38,8 +50,11 @@ Please make sure to have R and RStudio properly set up on your device before the
 
 # CHECKLIST BEFORE WORKSHOP
 
-Please complete the list below before the first day of the workshop. If you have any issues completeing the list above email any of the following people: `eleana-cabello@ouhsc.edu` or `hande-acar@ouhsc.edu`
+Please complete the list below before the first day of the workshop. If you have any issues completeing the list above email any of the following people: `eleana-cabello@ou.edu` or `hande-acar@ou.edu`
 
 - [ ] Completed R Programming Swirl course
 - [ ] Completed Exploratory Data Analysis Swirl course
+- [ ] Signed up for an OSCER account and have successfully logged into it before any workshops
+- [ ] Emailed your OSCER username to `kylie-m-williams@ou.edu` or `eleana-cabello@ou.edu`
+- [ ] Signed up for one of the sessions of the Introduction to Bash Programming and HPC Workshop
 - [ ] R and RStudio Working on Local Laptop
