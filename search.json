@@ -66,11 +66,11 @@
     ]
   },
   {
-    "objectID": "workshop-prereqs.html#create-an-account-with-oscer",
-    "href": "workshop-prereqs.html#create-an-account-with-oscer",
+    "objectID": "workshop-prereqs.html#create-an-oscer-account",
+    "href": "workshop-prereqs.html#create-an-oscer-account",
     "title": "Workshop Prerequisites",
-    "section": "Create an account with OSCER",
-    "text": "Create an account with OSCER\nFollow the directions on the OSCER website to create an account, linked here: OSCER New Account Setup\nYou will need this account for the Introduction to Bash Programming and HPC Workshop and the Single Cell RNA-Seq Workshop.\nWhen asked in the form for a sponsoring PI or faculty member for the account, please put the PI of the research lab you currently belong to.\nOnce you have received confirmation from OSCER that your account has been set up and you can log into it successfully, send an email to any of the following with your username : kylie-m-williams@ou.edu or eleana-cabello@ou.edu\nIf we do not receive your username information, we will not be able to add you to the OSCER group for this workshop.",
+    "section": "Create an OSCER Account",
+    "text": "Create an OSCER Account\nFollow the directions on the OSCER website to create an account, linked here: OSCER New Account Setup\nYou will need this account for the Introduction to Bash Programming and HPC Workshop and the Single Cell RNA-Seq Workshop.\nWhen asked in the form for a sponsoring PI or faculty member for the account, please put the PI of the research lab you currently belong to.\nOnce you have received confirmation from OSCER that your account has been set up and you can log into it successfully, send an email to any of the following with your username : kylie-m-williams@ou.edu or eleana-cabello@ou.edu\nIf we do not receive your username information, we will not be able to add you to the OSCER group for this workshop.",
     "crumbs": [
       "Course information",
       "Prerequisites"
