@@ -17,7 +17,7 @@ This second Swirl course will teach you how to conduct exploratory data analysis
 
 Completion of each course will be counted on our end through a Google form submission part of each lesson. If you have issues submitting the Google Form at the end of any lesson, send an email to: `eleana-cabello@ou.edu`
 
-## Create an account with OSCER
+## Create an OSCER Account
 
 Follow the directions on the OSCER website to create an account, linked here: [OSCER New Account Setup](https://www.ou.edu/oscer/support/accounts/new_account){target="_blank"}
 
