@@ -88,17 +88,6 @@
     ]
   },
   {
-    "objectID": "workshop-prereqs.html#access-oscer-workshop-guest-account",
-    "href": "workshop-prereqs.html#access-oscer-workshop-guest-account",
-    "title": "Workshop Prerequisites",
-    "section": "Access OSCER Workshop Guest Account",
-    "text": "Access OSCER Workshop Guest Account\nGood news! There is nothing you need to do to setup an account. A guest account has already been made for you by us for FREE!\n\n\n\n\n\n\nSteps to Log In\n\n\n\n\nGather your log in information, username and password sent to you.\nFind the terminal on your computer.\n\nType the following command to access you OSCER account\nssh USERNAME@sooner.oscer.ou.edu #Replace USERNAME with your guest username\nIt will ask for your password, start typing it. It will not appear on your screen do not be alarmed this is normal. Just make sure to enter it correctly then hit enter.\n\nYou’ve logged into your account!",
-    "crumbs": [
-      "Course information",
-      "Prerequisites"
-    ]
-  },
-  {
     "objectID": "workshop-team.html",
     "href": "workshop-team.html",
     "title": "Meet the Team!",

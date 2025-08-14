@@ -20,41 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -110,9 +75,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <meta property="og:title" content="Workshop Prerequisites">
 <meta property="og:description" content="">
-<meta property="og:image" content="https://EleanaCab.github.io/scRNAseq-wshp/images/prereqs/local_terminal.png">
-<meta property="og:image:height" content="574">
-<meta property="og:image:width" content="1644">
 </head>
 
 <body class="nav-sidebar docked quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -400,7 +362,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#swirl-courses" id="toc-swirl-courses" class="nav-link active" data-scroll-target="#swirl-courses">Swirl Courses</a></li>
   <li><a href="#introduction-to-bash-programming-and-hpc-workshop" id="toc-introduction-to-bash-programming-and-hpc-workshop" class="nav-link" data-scroll-target="#introduction-to-bash-programming-and-hpc-workshop">Introduction to Bash Programming and HPC Workshop</a></li>
   <li><a href="#setup-r-and-rstudio-locally" id="toc-setup-r-and-rstudio-locally" class="nav-link" data-scroll-target="#setup-r-and-rstudio-locally">Setup R and RStudio Locally</a></li>
-  <li><a href="#access-oscer-workshop-guest-account" id="toc-access-oscer-workshop-guest-account" class="nav-link" data-scroll-target="#access-oscer-workshop-guest-account">Access OSCER Workshop Guest Account</a></li>
   <li><a href="#checklist-before-workshop" id="toc-checklist-before-workshop" class="nav-link" data-scroll-target="#checklist-before-workshop">CHECKLIST BEFORE WORKSHOP</a></li>
   </ul>
 </nav>
@@ -462,33 +423,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><a href="https://swirlstats.com/students.html" target="_blank">Install R and RStudio Guide</a> - Complete steps 1 and 2</li>
 </ul>
 </section>
-<section id="access-oscer-workshop-guest-account" class="level2">
-<h2 class="anchored" data-anchor-id="access-oscer-workshop-guest-account">Access OSCER Workshop Guest Account</h2>
-<p>Good news! There is nothing you need to do to setup an account. A guest account has already been made for you by us for FREE!</p>
-<div class="callout callout-style-default callout-note callout-titled" title="Steps to Log In">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Steps to Log In
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ol type="1">
-<li><p>Gather your log in information, username and password sent to you.</p></li>
-<li><p>Find the terminal on your computer.</p>
-<p><img src="images/prereqs/local_terminal.png" class="img-fluid" width="700"></p></li>
-<li><p>Type the following command to access you OSCER account</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh</span> USERNAME@sooner.oscer.ou.edu <span class="co">#Replace USERNAME with your guest username</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div></li>
-<li><p>It will ask for your password, start typing it. It will not appear on your screen do not be alarmed this is normal. Just make sure to enter it correctly then hit enter.</p>
-<p><img src="images/prereqs/oscer_login_success.png" class="img-fluid" width="600"></p></li>
-<li><p>You’ve logged into your account!</p>
-<p><img src="images/prereqs/oscer_terminal.png" class="img-fluid" width="600"></p></li>
-</ol>
-</div>
-</div>
-</section>
 <section id="checklist-before-workshop" class="level1">
 <h1>CHECKLIST BEFORE WORKSHOP</h1>
 <p>Please complete the list below before the first day of the workshop. If you have any issues completeing the list above email any of the following people: <code>eleana-cabello@ouhsc.edu</code> or <code>hande-acar@ouhsc.edu</code></p>
@@ -496,7 +430,6 @@ Steps to Log In
 <li><label><input type="checkbox">Completed R Programming Swirl course</label></li>
 <li><label><input type="checkbox">Completed Exploratory Data Analysis Swirl course</label></li>
 <li><label><input type="checkbox">R and RStudio Working on Local Laptop</label></li>
-<li><label><input type="checkbox">Access to OSCER account</label></li>
 </ul>
 
 
