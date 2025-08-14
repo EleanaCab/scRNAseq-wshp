@@ -3,7 +3,7 @@ title: "Workshop Prerequisites"
 format: html
 ---
 
-**Please complete the following online courses and workshops before 11/01/2025**
+**Please complete the following online courses and workshops before 11/15/2025**
 
 ## Swirl Courses 
 
