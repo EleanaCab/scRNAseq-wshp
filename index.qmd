@@ -4,12 +4,16 @@ format: html
 page-layout: full
 toc: false
 ---
-
+ 
+# General Information
+ 
 ::::{.columns}
-:::{.column width="25%"}
-![](images/details/room.png){width="240" .rounded-image}
+:::{.column width="28%"}
+![](images/details/room.png){width="400" .rounded-image style="border: 1px solid black; border-radius: 5px;" fig-align=center}
 :::
-:::{.column width="75%"}
+:::{.column width="2%"}
+:::
+:::{.column width="40%"}
 **Dates**: 
 
 December 9th, 10th, and 12th
@@ -22,11 +26,14 @@ December 9th, 10th, and 12th
 
 Inasmuch Foundation Atrium in Robert M Bird Library
 :::
+:::{.column width="2%"}
+:::
+:::{.column width="28%"}
+![](images/details/library.png){width="400" .rounded-image style="border: 1px solid black; border-radius: 5px;" fig-align=center}
+:::
 ::::
 
-
 # Schedule 
-
 ```{=html}
 <table style="width:100%; margin">
   <colgroup>
