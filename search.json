@@ -1,38 +1,5 @@
 [
   {
-    "objectID": "supplemental-material/additional-links.html",
-    "href": "supplemental-material/additional-links.html",
-    "title": "Helpful Links",
-    "section": "",
-    "text": "Getting Started on OSCER",
-    "crumbs": [
-      "Supplemental notes",
-      "Additional Links"
-    ]
-  },
-  {
-    "objectID": "supplemental-material/additional-links.html#ous-oscer-hpc",
-    "href": "supplemental-material/additional-links.html#ous-oscer-hpc",
-    "title": "Helpful Links",
-    "section": "",
-    "text": "Getting Started on OSCER",
-    "crumbs": [
-      "Supplemental notes",
-      "Additional Links"
-    ]
-  },
-  {
-    "objectID": "supplemental-material/additional-links.html#clustering",
-    "href": "supplemental-material/additional-links.html#clustering",
-    "title": "Helpful Links",
-    "section": "Clustering",
-    "text": "Clustering\n\nUnderstanding UMAP",
-    "crumbs": [
-      "Supplemental notes",
-      "Additional Links"
-    ]
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Single Cell RNA-Seq Workshop",
@@ -96,6 +63,39 @@
     "crumbs": [
       "Course information",
       "Prerequisites"
+    ]
+  },
+  {
+    "objectID": "supplemental-material/additional-links.html",
+    "href": "supplemental-material/additional-links.html",
+    "title": "Helpful Links",
+    "section": "",
+    "text": "Getting Started on OSCER",
+    "crumbs": [
+      "Supplemental notes",
+      "Additional Links"
+    ]
+  },
+  {
+    "objectID": "supplemental-material/additional-links.html#ous-oscer-hpc",
+    "href": "supplemental-material/additional-links.html#ous-oscer-hpc",
+    "title": "Helpful Links",
+    "section": "",
+    "text": "Getting Started on OSCER",
+    "crumbs": [
+      "Supplemental notes",
+      "Additional Links"
+    ]
+  },
+  {
+    "objectID": "supplemental-material/additional-links.html#clustering",
+    "href": "supplemental-material/additional-links.html#clustering",
+    "title": "Helpful Links",
+    "section": "Clustering",
+    "text": "Clustering\n\nUnderstanding UMAP",
+    "crumbs": [
+      "Supplemental notes",
+      "Additional Links"
     ]
   },
   {
