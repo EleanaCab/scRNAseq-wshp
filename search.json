@@ -70,29 +70,7 @@
     "href": "supplemental-material/additional-links.html",
     "title": "Helpful Links",
     "section": "",
-    "text": "Getting Started on OSCER",
-    "crumbs": [
-      "Supplemental notes",
-      "Additional Links"
-    ]
-  },
-  {
-    "objectID": "supplemental-material/additional-links.html#ous-oscer-hpc",
-    "href": "supplemental-material/additional-links.html#ous-oscer-hpc",
-    "title": "Helpful Links",
-    "section": "",
-    "text": "Getting Started on OSCER",
-    "crumbs": [
-      "Supplemental notes",
-      "Additional Links"
-    ]
-  },
-  {
-    "objectID": "supplemental-material/additional-links.html#clustering",
-    "href": "supplemental-material/additional-links.html#clustering",
-    "title": "Helpful Links",
-    "section": "Clustering",
-    "text": "Clustering\n\nUnderstanding UMAP",
+    "text": "OU’s OSCER HPC\n\nGetting Started on OSCER\n\n\n\nClustering\n\nUnderstanding UMAP",
     "crumbs": [
       "Supplemental notes",
       "Additional Links"
@@ -103,7 +81,7 @@
     "href": "workshop-team.html",
     "title": "Meet the Team!",
     "section": "",
-    "text": "Hande Acar\nSenior Bioinformatics Analyst at IRCF\n\n\n\nLindsay Hayes\nAssociate Professor with Cell Biology\n\n\n\nJun Li\nProfessor and Chair of Genetics and Genome Sciences\n\n\n\nKurt Zimmerman\nAssociate Professor with Medicine Nephrology\n\n\n\n\n\n\nEleana Cabello\nBioinformatics Analyst with Dr. Bao Vu’s Lab and IRCF\n\n\n\nKylie Williams\nContract / Grant Manager with Gerosciences\n\n\n\nDave Stanford\nSenior Bioinformatics Analyst with Ophthalmology\n\n\n\nHua Zhong\nResearch Data Specialist",
+    "text": "Hande Acar\nSenior Bioinformatics Analyst at IRCF\n\n\n\nLindsay Hayes\nAssociate Professor with Cell Biology\n\n\n\nJun Li\nProfessor and Chair of Genetics and Genome Sciences\n\n\n\nDave Stanford\nSenior Bioinformatics Analyst with Ophthalmology\n\n\n\n\n\n\nKurt Zimmerman\nAssociate Professor with Medicine Nephrology\n\n\n\nEleana Cabello\nBioinformatics Analyst with Dr. Bao Vu’s Lab and IRCF\n\n\n\nKylie Williams\nContract / Grant Manager with Gerosciences\n\n\n\nHua Zhong\nResearch Data Specialist",
     "crumbs": [
       "Course information",
       "Workshop team"
