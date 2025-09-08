@@ -86,7 +86,7 @@ Inasmuch Foundation Atrium in Robert M Bird Library
     <td>Kurt Zimmerman</td>
     <td>Downstream Analysis Pipelines - Pseudotime Analysis using Monocle and Cell-Cell Communication using Nichenet/Cellchats</td>
     <td><a href="https://eleanacab.github.io/scRNAseq-wshp/pre-readings/day-3-pre-reading.html">📚</a></td>
-    <td><a href="LINK">📺</a></td>
+    <td><a href="https://docs.google.com/presentation/d/17f7A0mSHvJP1LQKGCyKU-9x061EbygQ0/edit?usp=sharing&ouid=101260178846192202779&rtpof=true&sd=true">📺</a></td>
     </tr>
     <tr>
     <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-3-pm.html>3-Afternoon</a></td>
@@ -94,7 +94,7 @@ Inasmuch Foundation Atrium in Robert M Bird Library
     <td>Kurt Zimmerman</td>
     <td>Downstream Analysis Pipelines - Pathway/Transcription Factor Inference</td>
     <td><a href="https://eleanacab.github.io/scRNAseq-wshp/pre-readings/day-3-pre-reading.html">📚</a></td>
-    <td><a href="LINK">📺</a></td>
+    <td><a href="https://docs.google.com/presentation/d/1a7FD3k56Q4M5XSMgIWhQS5a7kR1yI16Q/edit?usp=sharing&ouid=101260178846192202779&rtpof=true&sd=true">📺</a></td>
     </tr>
   </tbody>
 </table>
