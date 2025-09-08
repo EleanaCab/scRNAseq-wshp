@@ -24,15 +24,20 @@ Associate Professor with Cell Biology
 #### Jun Li
 Professor and Chair of Genetics and Genome Sciences 
 
-![](images/team/kzimmerman.png){width="200"} 
+![](images/team/headshot.png){width="200"} 
 
-#### Kurt Zimmerman
-Associate Professor with Medicine Nephrology
+#### Dave Stanford
+Senior Bioinformatics Analyst with Ophthalmology
 
 :::
 ::: {.column width="5%"}
 :::
 ::: {.column width="45%"}
+
+![](images/team/kzimmerman.png){width="200"} 
+
+#### Kurt Zimmerman
+Associate Professor with Medicine Nephrology
 
 ![](images/team/ecabello.png){width="200"}
 
@@ -43,11 +48,6 @@ Bioinformatics Analyst with Dr. Bao Vu's Lab and IRCF
 
 #### Kylie Williams
 Contract / Grant Manager with Gerosciences
-
-![](images/team/headshot.png){width="200"} 
-
-#### Dave Stanford
-Senior Bioinformatics Analyst with Ophthalmology
 
 ![](images/team/headshot.png){width="200"}
 
