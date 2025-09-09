@@ -1,0 +1,24 @@
+---
+title: "Day 3"
+format: html
+draft: true
+---
+
+## Pre-lecture Reading
+
+- Example
+
+## Lecture Goals and Material
+
+::: callout-note
+### Session Learning Objectives
+- Determining the root using Cytotrace
+- Pseudotime analysis using Monocle3
+- Cell-cell communication using CellChat
+- Gene set enrichment analysis (GSEA) using clusterProfiler
+- Pathway/transcription factor inference using decoupleR
+:::
+
+### Slides: [Morning](https://docs.google.com/presentation/d/17f7A0mSHvJP1LQKGCyKU-9x061EbygQ0/edit?usp=sharing&ouid=101260178846192202779&rtpof=true&sd=true){target="_blank"} - [Afternoon](https://docs.google.com/presentation/d/1a7FD3k56Q4M5XSMgIWhQS5a7kR1yI16Q/edit?usp=sharing&ouid=101260178846192202779&rtpof=true&sd=true){target="_blank"}
+
+## Summary 

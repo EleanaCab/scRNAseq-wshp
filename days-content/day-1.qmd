@@ -1,0 +1,19 @@
+---
+title: "Day 1 "
+format: html
+draft: true
+---
+
+## Pre-lecture Reading
+
+- Example
+
+## Lecture Goals and Material
+
+::: callout-note
+### Session Learning Objectives
+:::
+
+### Slides: [Morning](){target="_blank"} - [Afternoon](){target="_blank"}
+
+## Summary 

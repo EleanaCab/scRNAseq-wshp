@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Single Cell RNA-Seq Workshop",
     "section": "",
-    "text": "General Information\n\n\n\n\n\n\n\n\n\n\nDates:\nDecember 9th, 10th, and 12th\nTimes:\n9:00AM- 4:00PM\nLocation:\nInasmuch Foundation Atrium in Robert M Bird Library\n\n\n\n\n\n\n\n\n\n\n\n\nSchedule\n\n\n\n\n\n\n\n\n\n\n\nDay\nDate\nInstructors\nTopic\nPre-reading\nSlides\n\n\n\n\n1-Morning\n12/09\nKylie Williams\nLogging into OSCER, Sample Prep, and Sequencing\n📚\n📺\n\n\n1-Afternoon\n12/09\nHande Acar\nUsing Cellranger, Quality Control Measures\n📚\n📺\n\n\n2-Morning\n12/10\nLindsay Hayes\nSeurat Objects and Clustering\n📚\n📺\n\n\n2-Afternoon\n12/10\nLindsay Hayes\nAnnotating cells and Subclustering\n📚\n📺\n\n\n3-Morning\n12/12\nKurt Zimmerman\nDownstream Analysis Pipelines - Pseudotime Analysis using Monocle and Cell-Cell Communication using Nichenet/Cellchats\n📚\n📺\n\n\n3-Afternoon\n12/12\nKurt Zimmerman\nDownstream Analysis Pipelines - Pathway/Transcription Factor Inference\n📚\n📺",
+    "text": "Schedule\n\n\n\n\n\n\n\n\n\n\n\nDay\nDate\nInstructors\nTopic\nPre-reading\nSlides\n\n\n\n\n1-Morning\n12/09\nKylie Williams\nLogging into OSCER, Sample Prep, and Sequencing\n📚\n📺\n\n\n1-Afternoon\n12/09\nHande Acar\nUsing Cellranger, Quality Control Measures\n📚\n📺\n\n\n2-Morning\n12/10\nLindsay Hayes\nSeurat Objects and Clustering\n📚\n📺\n\n\n2-Afternoon\n12/10\nLindsay Hayes\nAnnotating cells and Subclustering\n📚\n📺\n\n\n3-Morning\n12/12\nKurt Zimmerman\nDownstream Analysis Pipelines - Pseudotime Analysis using Monocle and Cell-Cell Communication using Nichenet/Cellchats\n📚\n📺\n\n\n3-Afternoon\n12/12\nKurt Zimmerman\nDownstream Analysis Pipelines - Pathway/Transcription Factor Inference\n📚\n📺\n\n\n\n\n\nGeneral Information\n\n\n\n\n\n\n\n\n\n\nDates:\nDecember 9th, 10th, and 12th\nTimes:\n9:00AM- 4:00PM\nLocation:\nInasmuch Foundation Atrium in Robert M Bird Library",
     "crumbs": [
       "Course information",
       "Schedule"
@@ -150,7 +150,7 @@
     "text": "Hande Acar\nSenior Bioinformatics Analyst at IRCF\n\n\n\nLindsay Hayes\nAssociate Professor with Cell Biology\n\n\n\nJun Li\nProfessor and Chair of Genetics and Genome Sciences\n\n\n\nDave Stanford\nSenior Bioinformatics Analyst with Ophthalmology\n\n\n\n\n\n\nKurt Zimmerman\nAssociate Professor with Medicine Nephrology\n\n\n\nEleana Cabello\nBioinformatics Analyst with Dr. Bao Vu’s Lab and IRCF\n\n\n\nKylie Williams\nContract / Grant Manager with Gerosciences\n\n\n\nHua Zhong\nResearch Data Specialist",
     "crumbs": [
       "Course information",
-      "Workshop team"
+      "Workshop Team"
     ]
   },
   {
@@ -411,28 +411,6 @@
     "crumbs": [
       "Course information",
       "Overview"
-    ]
-  },
-  {
-    "objectID": "days-content/day-1-am.html#slides",
-    "href": "days-content/day-1-am.html#slides",
-    "title": "Day 1",
-    "section": "Slides",
-    "text": "Slides\n\nSLIDES",
-    "crumbs": [
-      "Daily materials",
-      "Day 1 - Morning"
-    ]
-  },
-  {
-    "objectID": "days-content/day-1-pm.html#slides",
-    "href": "days-content/day-1-pm.html#slides",
-    "title": "Day 1",
-    "section": "Slides",
-    "text": "Slides\n\nSLIDES",
-    "crumbs": [
-      "Daily materials",
-      "Day 1 - Afternoon"
     ]
   },
   {

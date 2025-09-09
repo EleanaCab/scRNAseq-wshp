@@ -29,7 +29,7 @@ website:
           - href: workshop-overview.qmd
             text: Overview
           - href: workshop-team.qmd
-            text: Workshop team
+            text: Workshop Team
           - href: index.qmd
             text: Schedule
       - section: "Pre-reading"
@@ -44,18 +44,12 @@ website:
       - section: "Daily materials"
         icon: pencil
         contents:
-          - href: days-content/day-1-am.qmd
-            text: "Day 1 - Morning"
-          - href: days-content/day-1-pm.qmd
-            text: "Day 1 - Afternoon"
-          - href: days-content/day-2-am.qmd
-            text: "Day 2 - Morning"
-          - href: days-content/day-2-pm.qmd
-            text: "Day 2 - Afternoon"
-          - href: days-content/day-3-am.qmd
-            text: "Day 3 - Morning"
-          - href: days-content/day-3-pm.qmd
-            text: "Day 3 - Afternoon"
+          - href: days-content/day-1.qmd
+            text: "Day 1"
+          - href: days-content/day-2.qmd
+            text: "Day 2"
+          - href: days-content/day-3.qmd
+            text: "Day 3"
       - section: "Supplemental notes"
         icon: clipboard2-plus
         contents:
