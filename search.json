@@ -1,5 +1,27 @@
 [
   {
+    "objectID": "supplemental-material/additional-links.html",
+    "href": "supplemental-material/additional-links.html",
+    "title": "Helpful Links",
+    "section": "",
+    "text": "OU’s OSCER HPC\n\nGetting Started on OSCER\n\n\n\nClustering\n\nUnderstanding UMAP",
+    "crumbs": [
+      "Supplemental notes",
+      "Additional Links"
+    ]
+  },
+  {
+    "objectID": "workshop-team.html",
+    "href": "workshop-team.html",
+    "title": "Meet the Team!",
+    "section": "",
+    "text": "Hande Acar\nSenior Bioinformatics Analyst at IRCF\n\n\n\nLindsay Hayes\nAssistant Professor with Cell Biology\n\n\n\nJun Li\nProfessor and Chair of Genetics and Genome Sciences\n\n\n\nDave Stanford\nSenior Bioinformatics Analyst with Ophthalmology\n\n\n\n\n\n\nKurt Zimmerman\nAssociate Professor with Medicine Nephrology\n\n\n\nEleana Cabello\nBioinformatics Analyst with Dr. Bao Vu’s Lab and IRCF\n\n\n\nKylie Williams\nContract / Grant Manager with Gerosciences\n\n\n\nHua Zhong\nResearch Data Specialist",
+    "crumbs": [
+      "Course information",
+      "Workshop Team"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Single Cell RNA-Seq Workshop",
@@ -8,6 +30,17 @@
     "crumbs": [
       "Course information",
       "Schedule"
+    ]
+  },
+  {
+    "objectID": "workshop-data.html",
+    "href": "workshop-data.html",
+    "title": "Workshop Data Overview",
+    "section": "",
+    "text": "Location\nFastqs files for this workshop can be found on OSCER at:\n/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025\n\n\nBackground\nThere are 4 samples in total we will be using for this workshop all kidneys from ift88 mice. Two samples will be our control samples.\n\n\nFull Study Link\nThe manuscript associated with this data can be found at: A Comprehensive Immune Cell Atlas of Cystic Kidney Disease Reveals the Involvement of Adaptive Immune Cells in Injury-Mediated Cyst Progression in Mice",
+    "crumbs": [
+      "Course information",
+      "Data Overview"
     ]
   },
   {
@@ -63,28 +96,6 @@
     "crumbs": [
       "Course information",
       "Prerequisites"
-    ]
-  },
-  {
-    "objectID": "supplemental-material/additional-links.html",
-    "href": "supplemental-material/additional-links.html",
-    "title": "Helpful Links",
-    "section": "",
-    "text": "OU’s OSCER HPC\n\nGetting Started on OSCER\n\n\n\nClustering\n\nUnderstanding UMAP",
-    "crumbs": [
-      "Supplemental notes",
-      "Additional Links"
-    ]
-  },
-  {
-    "objectID": "workshop-team.html",
-    "href": "workshop-team.html",
-    "title": "Meet the Team!",
-    "section": "",
-    "text": "Hande Acar\nSenior Bioinformatics Analyst at IRCF\n\n\n\nLindsay Hayes\nAssociate Professor with Cell Biology\n\n\n\nJun Li\nProfessor and Chair of Genetics and Genome Sciences\n\n\n\nDave Stanford\nSenior Bioinformatics Analyst with Ophthalmology\n\n\n\n\n\n\nKurt Zimmerman\nAssociate Professor with Medicine Nephrology\n\n\n\nEleana Cabello\nBioinformatics Analyst with Dr. Bao Vu’s Lab and IRCF\n\n\n\nKylie Williams\nContract / Grant Manager with Gerosciences\n\n\n\nHua Zhong\nResearch Data Specialist",
-    "crumbs": [
-      "Course information",
-      "Workshop Team"
     ]
   }
 ]
