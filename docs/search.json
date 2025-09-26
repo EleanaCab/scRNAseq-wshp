@@ -445,5 +445,38 @@
       "Daily materials",
       "Day 3 - Afternoon"
     ]
+  },
+  {
+    "objectID": "workshop-data.html",
+    "href": "workshop-data.html",
+    "title": "Workshop Data Overview",
+    "section": "",
+    "text": "Location\nFastqs files for this workshop can be found on OSCER at:\n/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025\n\n\nBackground\nThere are 4 samples in total we will be using for this workshop all kidneys from ift88 mice. Two samples will be our control samples.\n\n\nFull Study Link\nThe manuscript associated with this data can be found at: A Comprehensive Immune Cell Atlas of Cystic Kidney Disease Reveals the Involvement of Adaptive Immune Cells in Injury-Mediated Cyst Progression in Mice",
+    "crumbs": [
+      "Course information",
+      "Data Overview"
+    ]
+  },
+  {
+    "objectID": "workshop-data.html#background",
+    "href": "workshop-data.html#background",
+    "title": "Workshop Data Overview",
+    "section": "Background",
+    "text": "Background\nThere are 4 samples in total we will be using for this workshop all of kidney from ift88 mice. Two samples will be our control samples.\nThe manuscript associated for this data: A Comprehensive Immune Cell Atlas of Cystic Kidney Disease Reveals the Involvement of Adaptive Immune Cells in Injury-Mediated Cyst Progression in Mice",
+    "crumbs": [
+      "Course information",
+      "Data Overview"
+    ]
+  },
+  {
+    "objectID": "workshop-data.html#location",
+    "href": "workshop-data.html#location",
+    "title": "Workshop Data Overview",
+    "section": "",
+    "text": "Fastqs for this workshop can be found on OSCER: /ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025",
+    "crumbs": [
+      "Course information",
+      "Data Overview"
+    ]
   }
 ]

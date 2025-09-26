@@ -32,6 +32,8 @@ website:
             text: Workshop Team
           - href: index.qmd
             text: Schedule
+          - href: workshop-data.qmd
+            text: Data Overview
       - section: "Pre-reading"
         icon: book
         contents:
@@ -60,7 +62,6 @@ format:
   html:
     theme:
       light: [cosmo, theme.scss]
-      dark: [cosmo, theme-dark.scss]
     mainfont: "Inter"
     code-copy: true
     code-overflow: wrap

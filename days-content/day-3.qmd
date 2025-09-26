@@ -10,6 +10,8 @@ draft: true
 
 ## Lecture Goals and Material
 
+### Pre-Baked Location
+
 ::: callout-note
 ### Session Learning Objectives
 - Determining the root using Cytotrace

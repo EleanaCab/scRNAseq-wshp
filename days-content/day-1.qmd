@@ -12,6 +12,8 @@ draft: true
 
 ::: callout-note
 ### Session Learning Objectives
+- Local Setup of R packages
+- 
 :::
 
 ### Slides: [Morning](){target="_blank"} - [Afternoon](){target="_blank"}
