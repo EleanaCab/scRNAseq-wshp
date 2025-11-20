@@ -1,8 +1,10 @@
 ---
-title: "Meet the Team!"
 format: html
 page-layout: full
+toc: false
 ---
+
+## Meet the Team!
 
 :::: {.columns}
 ::: {.column width="2.5%"}
@@ -11,23 +13,25 @@ page-layout: full
 
 ![](images/team/hacar.png){width="200"} 
 
-#### Hande Acar
+#### Hande Acar |`hande-acar@ou.edu`
 Senior Bioinformatics Analyst at IRCF
+
 
 ![](images/team/lhayes.png){width="200"} 
 
-#### Lindsay Hayes
+#### Lindsay Hayes |`lindsay-hayes@ou.edu`
 Assistant Professor with Cell Biology
 
-![](images/team/headshot.png){height="200"}
 
-#### Jun Li
-Professor and Chair of Genetics and Genome Sciences 
+![](images/team/dstanford.png){width="200"} 
 
-![](images/team/headshot.png){width="200"} 
-
-#### Dave Stanford
+#### Dave Stanford |`david-stanford@ou.edu`
 Senior Bioinformatics Analyst with Ophthalmology
+
+![](images/team/headshot.png){width="200"}
+
+#### Hua Zhong |`hua-zhong@ou.edu`
+Research Data Specialist
 
 :::
 ::: {.column width="5%"}
@@ -36,23 +40,18 @@ Senior Bioinformatics Analyst with Ophthalmology
 
 ![](images/team/kzimmerman.png){width="200"} 
 
-#### Kurt Zimmerman
+#### Kurt Zimmerman |`kurt-zimmerman@ou.edu`
 Associate Professor with Medicine Nephrology
 
 ![](images/team/ecabello.png){width="200"}
 
-#### Eleana Cabello
-Bioinformatics Analyst with Dr. Bao Vu's Lab and IRCF
+#### Eleana Cabello |`eleana-cabello@ou.edu`
+Bioinformatics Analyst with OK-INBRE and Dr. Bao Vu
 
-![](images/team/headshot.png){width="200"} 
+![](images/team/kwilliams.png){width="200"} 
 
-#### Kylie Williams
-Contract / Grant Manager with Gerosciences
-
-![](images/team/headshot.png){width="200"}
-
-#### Hua Zhong
-Research Data Specialist
+#### Kylie Williams |`kylie-williams@ou.edu`
+Contract / Grant Manager with Gerosciences and Geroscience COBRE MACI Core Program Manager 
 
 :::
 ::: {.column width="2.5%"}

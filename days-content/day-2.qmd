@@ -1,21 +1,38 @@
 ---
 title: "Day 2"
+subtitle: “Just keep swimming.” — Finding Nemo (2003)
 format: html
 draft: true
 ---
 
-## Pre-lecture Reading
+### Before Session
 
-- Example
-
-## Lecture Goals and Material
-
-### Pre-Baked Location
-
-::: callout-note
-### Session Learning Objectives
+::: {.callout-note collapse="true" appearance="simple" }
+## Day 1 Pre-baked Material Location
+`/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day1/serial_CellRanger_output`
 :::
 
-### Slides: [Morning](){target="_blank"} - [Afternoon](){target="_blank"}
+- [Pre-lecture Reading Link for Day 2](https://eleanacab.github.io/scRNAseq-wshp/pre-readings/day-2-pre-reading.html){target="_blank"}
 
-## Summary 
+### Session Objectives
+
+- Understanding how the R package **Seurat** works as the core framework for:
+  - Data quality checking and filtering
+  - Integration across samples
+  - Visualization
+  - Clustering of cells
+- Annotating cell using a custom atlas
+
+### Session Materials
+
+- [Morning Slides by Lindsay Hayes](https://docs.google.com/presentation/d/17jriXrCrSdKn6YCFmbPQO4UUGWDzMg-VHuSGxR-66-k/edit?usp=sharing){target="_blank"} 
+
+- [Afternoon Slides by Lindsay Hayes](https://docs.google.com/presentation/d/1cjqYfqHRptAFrraq4I_jIGLePeOstXh1F81fzwZQwyo/edit?usp=sharing){target="_blank"}
+
+### Breakout Session Guides
+
+- [Session 1](https://docs.google.com/document/d/1kPzDchmVi7ROHJLWOXApCf7xh1qGPXPI5z7vRzTPwww/edit?usp=sharing){target="_blank"} - Seurat Creation to Normalization
+
+- [Session 2](https://docs.google.com/document/d/1WExtwoU3v3b2penO7sUYOaxJkwPCHA1gq_B4uT0RNSM/edit?usp=sharing){target="_blank"} - Dimension Reduction
+
+- [Session 3](https://docs.google.com/document/d/1u6qHmQW7_dsIMXlMZ1F0wQ--kcAg3NSOKhOO6v07Y8s/edit?usp=sharing){target="_blank"} -  Integration

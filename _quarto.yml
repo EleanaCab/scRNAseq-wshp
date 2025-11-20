@@ -24,21 +24,19 @@ website:
       - section: "Course information"
         icon: house
         contents:
-          - href: workshop-prereqs.qmd
-            text: Prerequisites
           - href: workshop-overview.qmd
             text: Overview
           - href: workshop-team.qmd
-            text: Workshop Team
+            text: Team
+          - href: workshop-prereqs.qmd
+            text: Prerequisites
           - href: index.qmd
             text: Schedule
           - href: workshop-data.qmd
-            text: Data Overview
+            text: Data Summary
       - section: "Pre-reading"
         icon: book
         contents:
-          - href: pre-readings/day-1-pre-reading.qmd
-            text: Day 1
           - href: pre-readings/day-2-pre-reading.qmd
             text: Day 2
           - href: pre-readings/day-3-pre-reading.qmd
@@ -56,13 +54,12 @@ website:
         icon: clipboard2-plus
         contents:
           - href: supplemental-material/additional-links.qmd
-            text: Additional Links
+            text: Additional Resources
 
 format:
   html:
     theme:
       light: [cosmo, theme.scss]
-    mainfont: "Inter"
     code-copy: true
     code-overflow: wrap
     toc: true

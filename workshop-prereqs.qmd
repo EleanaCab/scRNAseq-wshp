@@ -15,7 +15,7 @@ This second Swirl course will teach you how to conduct exploratory data analysis
 
 - [Exploratory Data Analysis](https://lindsaynhayes.github.io/introR2025/projects/index_A02.html){target="_blank"}
 
-Completion of each course will be counted on our end through a Google form submission part of each lesson. If you have issues submitting the Google Form at the end of any lesson, send an email to: `eleana-cabello@ou.edu`
+Completion of each course will be counted on our end through a Google form submission part of each lesson. If you have issues submitting the Google Form at the end of any lesson, send an email with a subject line including scRNA-seq Workshop 2025 to: `eleana-cabello@ou.edu`
 
 ## Create an OSCER Account
 
@@ -48,7 +48,7 @@ Please make sure to have R and RStudio properly set up on your device before the
 - [Install R and RStudio Video](https://www.youtube.com/watch?v=eQFu_zzF96o){target="_blank"}
 - [Install R and RStudio Guide](https://swirlstats.com/students.html){target="_blank"} - Complete steps 1 and 2
 
-# CHECKLIST BEFORE WORKSHOP
+## CHECKLIST BEFORE WORKSHOP
 
 Please complete the list below before the first day of the workshop. If you have any issues completeing the list above email any of the following people: `eleana-cabello@ou.edu` or `hande-acar@ou.edu`
 

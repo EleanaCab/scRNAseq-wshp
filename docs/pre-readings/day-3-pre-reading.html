@@ -39,7 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-aaf50fcf4e8b8c87f7330718700b49c1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-b578b939338a2f0be8e516b177b24014.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -71,6 +71,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <meta property="og:title" content="Day 3 Pre-reading">
+<meta property="og:description" content="">
 </head>
 
 <body class="nav-sidebar docked">
@@ -128,12 +129,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../workshop-overview.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Overview</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../workshop-team.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Workshop Team</span></a>
   </div>
@@ -142,12 +137,6 @@ ul.task-list li input[type="checkbox"] {
   <div class="sidebar-item-container"> 
   <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Schedule</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../workshop-data.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Overview</span></a>
   </div>
 </li>
       </ul>
@@ -162,24 +151,6 @@ ul.task-list li input[type="checkbox"] {
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../pre-readings/day-1-pre-reading.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 1</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../pre-readings/day-2-pre-reading.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Day 2</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../pre-readings/day-3-pre-reading.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Day 3</span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -235,8 +206,18 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#cytotrace2" id="toc-cytotrace2" class="nav-link active" data-scroll-target="#cytotrace2">CytoTRACE2</a></li>
+  <li><a href="#monocle" id="toc-monocle" class="nav-link" data-scroll-target="#monocle">Monocle</a></li>
+  <li><a href="#cellchat" id="toc-cellchat" class="nav-link" data-scroll-target="#cellchat">CellChat</a></li>
+  <li><a href="#clusterprofiler" id="toc-clusterprofiler" class="nav-link" data-scroll-target="#clusterprofiler">clusterProfiler</a></li>
+  <li><a href="#decoupler" id="toc-decoupler" class="nav-link" data-scroll-target="#decoupler">decoupleR</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -260,8 +241,32 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Below are the papers associated with the R packages we will be using for Day 3 of our workshop.</p>
+<section id="cytotrace2" class="level3">
+<h3 class="anchored" data-anchor-id="cytotrace2">CytoTRACE2</h3>
+<p>Cellular (Cyto) Trajectory Reconstruction Analysis using gene Counts and Expression (CytoTRACE) is an interpretable deep learning framework for predicting cellular potency and developmental potential from single-cell RNA sequencing data. It uses gene count signatures, or the correlation between gene count and gene expression levels to capture differentiation states.</p>
+<p>Link: <a href="https://www.nature.com/articles/s41592-025-02857-2" target="_blank">Improved reconstruction of single-cell developmental potential with CytoTRACE 2</a></p>
+</section>
+<section id="monocle" class="level3">
+<h3 class="anchored" data-anchor-id="monocle">Monocle</h3>
+<p>Monocle’s toolkit allows for classifying and counting cells, performing differential expression analysis between subpopulations of cells, and reconstructing cellular trajectories. Its main goal is to order cells along a developmental or differentiation trajectory based on gene expression, even if the samples are just a “snapshot” in time.</p>
+<p>Link: <a href="https://www.nature.com/articles/nbt.2859" target="_blank">The dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cells</a></p>
+</section>
+<section id="cellchat" class="level3">
+<h3 class="anchored" data-anchor-id="cellchat">CellChat</h3>
+<p>CellChat is a tool that is able to quantitatively infer and analyze intercellular communication networks from single-cell RNA-sequencing (scRNA-seq) data. CellChat predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches.</p>
+<p>Link: <a href="https://www.nature.com/articles/s41596-024-01045-4" target="_blank">CellChat for systematic analysis of cell–cell communication from single-cell transcriptomics</a></p>
+</section>
+<section id="clusterprofiler" class="level3">
+<h3 class="anchored" data-anchor-id="clusterprofiler">clusterProfiler</h3>
+<p>Link: <a href="https://journals.sagepub.com/doi/10.1089/omi.2011.0118" target="_blank">clusterProfiler: an R Package for Comparing Biological Themes Among Gene Clusters</a></p>
+</section>
+<section id="decoupler" class="level3">
+<h3 class="anchored" data-anchor-id="decoupler">decoupleR</h3>
+<p>Link: <a href="https://academic.oup.com/bioinformaticsadvances/article/2/1/vbac016/6544613?login=true" target="_blank">decoupleR: ensemble of computational methods to infer biological activities from omics data Open Access</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

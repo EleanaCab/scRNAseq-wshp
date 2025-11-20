@@ -1,21 +1,28 @@
 ---
 title: "Day 1 "
+subtitle: “Curiosity often leads to trouble.” — Alice in Wonderland (1951 / 2010)
 format: html
 draft: true
 ---
 
-## Pre-lecture Reading
+### Pre-reading
 
-- Example
+- Link to bash loops resources
 
-## Lecture Goals and Material
+### Data Location
 
-::: callout-note
-### Session Learning Objectives
-- Local Setup of R packages
-- 
-:::
+`/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/mouse_kidney_all_cells_raw_data`
 
-### Slides: [Morning](){target="_blank"} - [Afternoon](){target="_blank"}
+### Session Objectives
 
-## Summary 
+- Set up all required R packages locally for the remainder of the workshop
+
+- Understand sample preparation workflows for single-cell sequencing using different library kits
+
+- Use CellRanger for barcode processing and UMI counting to quantify gene expression
+
+### Session Materials
+
+- [Morning Slides by Kylie Williams](){target="_blank"} 
+
+- [Afternoon Slides by Hande Acar](https://docs.google.com/presentation/d/1ea04aS9TwBHLbUjemtqW_1T9qWOLYtCnv9h6vrHMAIk/edit?usp=sharing){target="_blank"}

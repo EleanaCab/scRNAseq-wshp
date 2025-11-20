@@ -1,11 +1,12 @@
 ---
-title: "Single Cell RNA-Seq Workshop"
 format: html
 page-layout: full
 toc: false
 ---
+## General Information
+![](images/details/info.png){width="1200" .rounded-image style="border-radius: 5px;" fig-align=center}
 
-# Schedule 
+## Schedule 
 ```{=html}
 <table style="width:100%; margin">
   <colgroup>
@@ -41,7 +42,7 @@ toc: false
     <td>Hande Acar</td>
     <td>Using Cellranger, Quality Control Measures</td>
     <td><a href="https://eleanacab.github.io/scRNAseq-wshp/pre-readings/day-1-pre-reading.html">📚</a></td>
-    <td><a href="https://docs.google.com/presentation/d/1ea04aS9TwBHLbUjemtqW_1T9qWOLYtCnv9h6vrHMAIk/edit?usp=sharing" target="_blank">📺</a></td>
+    <td><a href="LINK" target="_blank">📺</a></td>
     </tr>
     <tr>
     <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-2.html>2-Morning</a></td>
@@ -49,7 +50,7 @@ toc: false
     <td>Lindsay Hayes</td>
     <td>Seurat Objects and Clustering</td>
     <td><a href="https://eleanacab.github.io/scRNAseq-wshp/pre-readings/day-2-pre-reading.html">📚</a></td>
-    <td><a href="https://docs.google.com/presentation/d/17jriXrCrSdKn6YCFmbPQO4UUGWDzMg-VHuSGxR-66-k/edit?usp=sharing" target="_blank">📺</a></td>
+    <td><a href="LINK" target="_blank">📺</a></td>
     </tr>
     <tr>
     <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-2.html>2-Afternoon</a></td>
@@ -57,7 +58,7 @@ toc: false
     <td>Lindsay Hayes</td>
     <td>Annotating cells and Subclustering</td>
     <td><a href="https://eleanacab.github.io/scRNAseq-wshp/pre-readings/day-2-pre-reading.html">📚</a></td>
-    <td><a href="https://docs.google.com/presentation/d/1cjqYfqHRptAFrraq4I_jIGLePeOstXh1F81fzwZQwyo/edit?usp=sharing" target="_blank">📺</a></td>
+    <td><a href="LINK" target="_blank">📺</a></td>
     </tr>
     <tr>
     <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-3.html>3-Morning</a></td>
@@ -65,7 +66,7 @@ toc: false
     <td>Kurt Zimmerman</td>
     <td>Downstream Analysis Pipelines - Pseudotime Analysis using Monocle and Cell-Cell Communication using Nichenet/Cellchats</td>
     <td><a href="https://eleanacab.github.io/scRNAseq-wshp/pre-readings/day-3-pre-reading.html">📚</a></td>
-    <td><a href="https://docs.google.com/presentation/d/17f7A0mSHvJP1LQKGCyKU-9x061EbygQ0/edit?usp=sharing&ouid=101260178846192202779&rtpof=true&sd=true" target="_blank">📺</a></td>
+    <td><a href="LINK" target="_blank">📺</a></td>
     </tr>
     <tr>
     <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-3.html>3-Afternoon</a></td>
@@ -73,36 +74,8 @@ toc: false
     <td>Kurt Zimmerman</td>
     <td>Downstream Analysis Pipelines - Pathway/Transcription Factor Inference</td>
     <td><a href="https://eleanacab.github.io/scRNAseq-wshp/pre-readings/day-3-pre-reading.html">📚</a></td>
-    <td><a href="https://docs.google.com/presentation/d/1a7FD3k56Q4M5XSMgIWhQS5a7kR1yI16Q/edit?usp=sharing&ouid=101260178846192202779&rtpof=true&sd=true" target="_blank">📺</a></td>
+    <td><a href="LINK" target="_blank">📺</a></td>
     </tr>
   </tbody>
 </table>
 ```
-
-# General Information
- 
-::::{.columns}
-:::{.column width="28%"}
-![](images/details/room.png){width="400" .rounded-image style="border: 1px solid black; border-radius: 5px;" fig-align=center}
-:::
-:::{.column width="2%"}
-:::
-:::{.column width="40%"}
-**Dates**: 
-
-December 9th, 10th, and 12th
-
-**Times**: 
-
-9:00AM- 4:00PM
-
-**Location**: 
-
-Inasmuch Foundation Atrium in Robert M Bird Library
-:::
-:::{.column width="2%"}
-:::
-:::{.column width="28%"}
-![](images/details/library.png){width="400" .rounded-image style="border: 1px solid black; border-radius: 5px;" fig-align=center}
-:::
-::::

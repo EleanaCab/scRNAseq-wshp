@@ -1,12 +1,15 @@
 ---
-title: "Helpful Links"
+title: "Helpful Resources"
 format: html
 ---
 
-# OU's OSCER HPC 
+This page includes useful links to materials that support different parts of the workshop. If you’re having trouble grasping a concept using only the instructor-provided materials, browse some of the resources here to see if they help:
+
+### OU's OSCER HPC 
 
 - [Getting Started on OSCER](https://www.ou.edu/oscer/getting_started){target="_blank"}
+- [Changing Password on OSCER](https://www.ou.edu/oscer/support/accounts/change_password){target="_blank"}
 
-# Clustering
+### Clustering
 
 - [Understanding UMAP](https://pair-code.github.io/understanding-umap/){target="_blank"}

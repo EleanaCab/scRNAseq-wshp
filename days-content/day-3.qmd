@@ -1,26 +1,26 @@
 ---
 title: "Day 3"
+subtitle: “Hang in there. We’re almost there.” — Free Willy (1993)
 format: html
 draft: true
 ---
 
-## Pre-lecture Reading
+### Before Session
 
-- Example
+:::{.callout-note collapse="true" appearance="simple" }
+## Day 2 Pre-baked Material Location
+`/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day2`
+:::
 
-## Lecture Goals and Material
+- [Pre-lecture Reading Link for Day 3](https://eleanacab.github.io/scRNAseq-wshp/pre-readings/day-3-pre-reading.html){target="_blank"} 
 
-### Pre-Baked Location
 
-::: callout-note
-### Session Learning Objectives
+### Session Objectives
+
 - Determining the root using Cytotrace
 - Pseudotime analysis using Monocle3
 - Cell-cell communication using CellChat
 - Gene set enrichment analysis (GSEA) using clusterProfiler
 - Pathway/transcription factor inference using decoupleR
-:::
 
-### Slides: [Morning](https://docs.google.com/presentation/d/17f7A0mSHvJP1LQKGCyKU-9x061EbygQ0/edit?usp=sharing&ouid=101260178846192202779&rtpof=true&sd=true){target="_blank"} - [Afternoon](https://docs.google.com/presentation/d/1a7FD3k56Q4M5XSMgIWhQS5a7kR1yI16Q/edit?usp=sharing&ouid=101260178846192202779&rtpof=true&sd=true){target="_blank"}
-
-## Summary 
+### Session Materials
