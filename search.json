@@ -2,34 +2,122 @@
   {
     "objectID": "supplemental-material/additional-links.html",
     "href": "supplemental-material/additional-links.html",
-    "title": "Helpful Links",
+    "title": "Helpful Resources",
     "section": "",
-    "text": "OU’s OSCER HPC\n\nGetting Started on OSCER\n\n\n\nClustering\n\nUnderstanding UMAP",
+    "text": "This page includes useful links to materials that support different parts of the workshop. If you’re having trouble grasping a concept using only the instructor-provided materials, browse some of the resources here to see if they help:\n\nOU’s OSCER HPC\n\nGetting Started on OSCER\nChanging Password on OSCER\n\n\n\nClustering\n\nUnderstanding UMAP",
     "crumbs": [
       "Supplemental notes",
-      "Additional Links"
+      "Additional Resources"
+    ]
+  },
+  {
+    "objectID": "workshop-data.html",
+    "href": "workshop-data.html",
+    "title": "Workshop Data",
+    "section": "",
+    "text": "Sample FASTQ files for this workshop can be found on OSCER at:\n/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/mouse_kidney_all_cells_raw_data",
+    "crumbs": [
+      "Course information",
+      "Data Summary"
+    ]
+  },
+  {
+    "objectID": "workshop-data.html#location-on-oscer",
+    "href": "workshop-data.html#location-on-oscer",
+    "title": "Workshop Data",
+    "section": "",
+    "text": "Sample FASTQ files for this workshop can be found on OSCER at:\n/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/mouse_kidney_all_cells_raw_data",
+    "crumbs": [
+      "Course information",
+      "Data Summary"
+    ]
+  },
+  {
+    "objectID": "workshop-data.html#background",
+    "href": "workshop-data.html#background",
+    "title": "Workshop Data",
+    "section": "Background",
+    "text": "Background\nThe single cell data used for class was generated from the kidneys of a mouse model of polycystic kidney disease. Specifically, the mice used for these experiments had a mutation in the Ift88 gene, which is required for primary cilia formation. In the absence of Ift88 and primary cilia, mice gradual develop cysts and fibrosis throughout the kidney parenchyma.\nCaggcreERT2 Ift88f/f mice were induced with tamoxifen at 8 weeks of age, resulting in loss of primary cilia in the majority of cells in the kidney. Mice were harvested ~7 months post tamoxifen injection and kidneys isolated, digested with collagenase, Fluorescence-Activated Cell (FAC) sorted, and subjected to single cell RNA sequencing using 10X genomics.\nThe manuscript associated with this data can be found here: A Comprehensive Immune Cell Atlas of Cystic Kidney Disease Reveals the Involvement of Adaptive Immune Cells in Injury-Mediated Cyst Progression in Mice",
+    "crumbs": [
+      "Course information",
+      "Data Summary"
+    ]
+  },
+  {
+    "objectID": "index.html#schedule",
+    "href": "index.html#schedule",
+    "title": "",
+    "section": "Schedule",
+    "text": "Schedule\n\n\n\n\n\n\n\n\n\n\n\nDay\nDate\nInstructors\nTopic\nPre-reading\nSlides\n\n\n\n\n1-Morning\n12/09\nKylie Williams\nLogging into OSCER, Sample Prep, and Sequencing\n📚\n📺\n\n\n1-Afternoon\n12/09\nHande Acar\nUsing Cellranger, Quality Control Measures\n📚\n📺\n\n\n2-Morning\n12/10\nLindsay Hayes\nSeurat Objects and Clustering\n📚\n📺\n\n\n2-Afternoon\n12/10\nLindsay Hayes\nAnnotating cells and Subclustering\n📚\n📺\n\n\n3-Morning\n12/12\nKurt Zimmerman\nDownstream Analysis Pipelines - Pseudotime Analysis using Monocle and Cell-Cell Communication using Nichenet/Cellchats\n📚\n📺\n\n\n3-Afternoon\n12/12\nKurt Zimmerman\nDownstream Analysis Pipelines - Pathway/Transcription Factor Inference\n📚\n📺",
+    "crumbs": [
+      "Course information",
+      "Schedule"
     ]
   },
   {
     "objectID": "workshop-team.html",
     "href": "workshop-team.html",
-    "title": "Meet the Team!",
+    "title": "",
     "section": "",
-    "text": "Hande Acar\nSenior Bioinformatics Analyst at IRCF\n\n\n\nLindsay Hayes\nAssistant Professor with Cell Biology\n\n\n\nJun Li\nProfessor and Chair of Genetics and Genome Sciences\n\n\n\nDave Stanford\nSenior Bioinformatics Analyst with Ophthalmology\n\n\n\n\n\n\nKurt Zimmerman\nAssociate Professor with Medicine Nephrology\n\n\n\nEleana Cabello\nBioinformatics Analyst with Dr. Bao Vu’s Lab and IRCF\n\n\n\nKylie Williams\nContract / Grant Manager with Gerosciences\n\n\n\nHua Zhong\nResearch Data Specialist",
+    "text": "Senior Bioinformatics Analyst at IRCF\n\n\n\n\nAssistant Professor with Cell Biology\n\n\n\n\nSenior Bioinformatics Analyst with Ophthalmology\n\n\n\n\nResearch Data Specialist\n\n\n\n\n\n\n\nAssociate Professor with Medicine Nephrology\n\n\n\n\nBioinformatics Analyst with OK-INBRE and Dr. Bao Vu\n\n\n\n\nContract / Grant Manager with Gerosciences and Geroscience COBRE MACI Core Program Manager",
     "crumbs": [
       "Course information",
-      "Workshop Team"
+      "Team"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Single Cell RNA-Seq Workshop",
+    "objectID": "workshop-team.html#meet-the-team",
+    "href": "workshop-team.html#meet-the-team",
+    "title": "",
     "section": "",
-    "text": "Schedule\n\n\n\n\n\n\n\n\n\n\n\nDay\nDate\nInstructors\nTopic\nPre-reading\nSlides\n\n\n\n\n1-Morning\n12/09\nKylie Williams\nLogging into OSCER, Sample Prep, and Sequencing\n📚\n📺\n\n\n1-Afternoon\n12/09\nHande Acar\nUsing Cellranger, Quality Control Measures\n📚\n📺\n\n\n2-Morning\n12/10\nLindsay Hayes\nSeurat Objects and Clustering\n📚\n📺\n\n\n2-Afternoon\n12/10\nLindsay Hayes\nAnnotating cells and Subclustering\n📚\n📺\n\n\n3-Morning\n12/12\nKurt Zimmerman\nDownstream Analysis Pipelines - Pseudotime Analysis using Monocle and Cell-Cell Communication using Nichenet/Cellchats\n📚\n📺\n\n\n3-Afternoon\n12/12\nKurt Zimmerman\nDownstream Analysis Pipelines - Pathway/Transcription Factor Inference\n📚\n📺\n\n\n\n\n\nGeneral Information\n\n\n\n\n\n\n\n\n\n\nDates:\nDecember 9th, 10th, and 12th\nTimes:\n9:00AM- 4:00PM\nLocation:\nInasmuch Foundation Atrium in Robert M Bird Library",
+    "text": "Senior Bioinformatics Analyst at IRCF\n\n\n\n\nAssistant Professor with Cell Biology\n\n\n\n\nSenior Bioinformatics Analyst with Ophthalmology\n\n\n\n\nResearch Data Specialist\n\n\n\n\n\n\n\nAssociate Professor with Medicine Nephrology\n\n\n\n\nBioinformatics Analyst with OK-INBRE and Dr. Bao Vu\n\n\n\n\nContract / Grant Manager with Gerosciences and Geroscience COBRE MACI Core Program Manager",
     "crumbs": [
       "Course information",
-      "Schedule"
+      "Team"
+    ]
+  },
+  {
+    "objectID": "workshop-overview.html",
+    "href": "workshop-overview.html",
+    "title": "",
+    "section": "",
+    "text": "You’ve probably heard of bulk RNA sequencing…but what about single-cell RNA sequencing? Chances are, you’ve heard of that too. Jokes aside, single-cell RNA-seq has quickly become one of the most powerful and widely used approaches for overcoming the limitations of bulk RNA-seq data. While the overall concept is similar, the key difference is resolution: instead of averaging signals across a mixed population, single-cell RNA-seq captures the transcriptome of every individual cell. This lets you explore cellular heterogeneity within your sample and uncover the diversity of RNA transcripts present in each cell.",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "workshop-overview.html#why-single-cell-rna-sequencing",
+    "href": "workshop-overview.html#why-single-cell-rna-sequencing",
+    "title": "",
+    "section": "",
+    "text": "You’ve probably heard of bulk RNA sequencing…but what about single-cell RNA sequencing? Chances are, you’ve heard of that too. Jokes aside, single-cell RNA-seq has quickly become one of the most powerful and widely used approaches for overcoming the limitations of bulk RNA-seq data. While the overall concept is similar, the key difference is resolution: instead of averaging signals across a mixed population, single-cell RNA-seq captures the transcriptome of every individual cell. This lets you explore cellular heterogeneity within your sample and uncover the diversity of RNA transcripts present in each cell.",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "workshop-overview.html#impact-on-campus",
+    "href": "workshop-overview.html#impact-on-campus",
+    "title": "",
+    "section": "Impact on Campus",
+    "text": "Impact on Campus\nThe purpose of the Single-Cell RNA Sequencing Workshop is to equip researchers on our campus with the practical skills needed to perform single-cell RNA-seq analysis—from sample preparation all the way to producing publication-quality figures.\nThrough a hands-on, step-by-step format, participants will learn how to align sequencing data to the correct reference genome, import and process the data in R, and create informative visualizations such as UMAPs, heatmaps, and volcano plots.\nThe workshop will also introduce advanced downstream analyses, including ligand–receptor interaction, pathway enrichment, and pseudotime trajectory analysis, enabling participants to fully interpret and explore their single-cell datasets.",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "workshop-overview.html#overview-of-workshop",
+    "href": "workshop-overview.html#overview-of-workshop",
+    "title": "",
+    "section": "Overview of Workshop",
+    "text": "Overview of Workshop\nOur 2025 workshop will be divided into three sessions held over the course of a week. The first session will focus on sample preparation, sequencing, and quality control techniques.\nIn the second session, participants will work with the newly generated data from session one. They will learn how to import their data into R, build and manage a Seurat object, perform cell clustering, and carry out cell-type annotation.\nThe final session will provide hands-on experience with more advanced analyses, including pseudotime trajectory inference, cell–cell communication, and pathway or transcription factor activity analysis.",
+    "crumbs": [
+      "Course information",
+      "Overview"
     ]
   },
   {
@@ -48,7 +136,7 @@
     "href": "workshop-prereqs.html#swirl-courses",
     "title": "Workshop Prerequisites",
     "section": "Swirl Courses",
-    "text": "Swirl Courses\nThe following Swirl course will teach you the basics of R programming. Follow the steps in the link below to install the course and submit your participation:\n\nR Programming Swirl Course\n\nThis second Swirl course will teach you how to conduct exploratory data analysis on sample data sets, plotting in R using bases packages, and how to use the the famous ggplot2 package. Follow the steps in the link below to install the course and submit your participation:\n\nExploratory Data Analysis\n\nCompletion of each course will be counted on our end through a Google form submission part of each lesson. If you have issues submitting the Google Form at the end of any lesson, send an email to: eleana-cabello@ou.edu",
+    "text": "Swirl Courses\nThe following Swirl course will teach you the basics of R programming. Follow the steps in the link below to install the course and submit your participation:\n\nR Programming Swirl Course\n\nThis second Swirl course will teach you how to conduct exploratory data analysis on sample data sets, plotting in R using bases packages, and how to use the the famous ggplot2 package. Follow the steps in the link below to install the course and submit your participation:\n\nExploratory Data Analysis\n\nCompletion of each course will be counted on our end through a Google form submission part of each lesson. If you have issues submitting the Google Form at the end of any lesson, send an email with a subject line including scRNA-seq Workshop 2025 to: eleana-cabello@ou.edu",
     "crumbs": [
       "Course information",
       "Prerequisites"
@@ -82,6 +170,17 @@
     "title": "Workshop Prerequisites",
     "section": "Setup R and RStudio Locally",
     "text": "Setup R and RStudio Locally\nPlease make sure to have R and RStudio properly set up on your device before the workshop. If you do not have RStudio installed, please follow the instructions linked below:\n\nInstall R and RStudio Video\nInstall R and RStudio Guide - Complete steps 1 and 2",
+    "crumbs": [
+      "Course information",
+      "Prerequisites"
+    ]
+  },
+  {
+    "objectID": "workshop-prereqs.html#checklist-before-workshop",
+    "href": "workshop-prereqs.html#checklist-before-workshop",
+    "title": "Workshop Prerequisites",
+    "section": "CHECKLIST BEFORE WORKSHOP",
+    "text": "CHECKLIST BEFORE WORKSHOP\nPlease complete the list below before the first day of the workshop. If you have any issues completeing the list above email any of the following people: eleana-cabello@ou.edu or hande-acar@ou.edu\n\nCompleted R Programming Swirl course\nCompleted Exploratory Data Analysis Swirl course\nSigned up for an OSCER account and have successfully logged into it before any workshops\nEmailed your OSCER username to kylie-m-williams@ou.edu or eleana-cabello@ou.edu\nSigned up for one of the sessions of the Introduction to Bash Programming and HPC Workshop\nR and RStudio Working on Local Laptop",
     "crumbs": [
       "Course information",
       "Prerequisites"
