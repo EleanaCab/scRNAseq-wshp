@@ -8,8 +8,13 @@ draft: true
 ### Before Session
 
 ::: {.callout-note collapse="true" appearance="simple" }
-## Day 1 Pre-baked Material Location
+## Day 2 Pre-baked Material Location
 `/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day2/data/`
+:::
+
+::: {.callout-note collapse="true" appearance="simple" }
+## Day 2 Scripts Location
+`/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day2/scripts/`
 :::
 
 - [Pre-lecture Reading Link for Day 2](https://eleanacab.github.io/scRNAseq-wshp/pre-readings/day-2-pre-reading.html){target="_blank"}
