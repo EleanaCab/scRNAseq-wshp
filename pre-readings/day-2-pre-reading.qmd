@@ -4,6 +4,20 @@ format: html
 draft: true
 ---
 
-## Seurat v5
+# References for content covered on Day 2
 
-Link: [](https://www.nature.com/articles/s41587-023-01767-y){target="_blank"}
+## Seurat
+[Seurat Tutorials](https://satijalab.org/seurat/articles/get_started_v5_new)
+[Seurat Publication (v5)](https://www.nature.com/articles/s41587-023-01767-y)
+
+## Bioconductor
+[Orchestrating Single-Cell Analysis with Bioconductor](https://bioconductor.org/books/release/OSCA/)
+
+## Single Cell Specific Packages
+[ggplot2](https://ggplot2.tidyverse.org)
+[scater](https://bioconductor.org/packages/release/bioc/html/scater.html)
+[scDblFinder](https://bioconductor.org/packages/release/bioc/html/scDblFinder.html)
+[SingleR](https://bioconductor.org/packages/release/bioc/html/SingleR.html)
+[pheatmap](https://davetang.github.io/muse/pheatmap.html)
+[tidyverse](https://tidyverse.org)
+[tidyverse packages](https://tidyverse.org/packages/)
