@@ -114,7 +114,7 @@
     "href": "workshop-overview.html#overview-of-workshop",
     "title": "",
     "section": "Overview of Workshop",
-    "text": "Overview of Workshop\nOur 2025 workshop will be divided into three sessions held over the course of a week. The first session will focus on sample preparation, sequencing, and quality control techniques.\nIn the second session, participants will work with the newly generated data from session one. They will learn how to import their data into R, build and manage a Seurat object, perform cell clustering, and carry out cell-type annotation.\nThe final session will provide hands-on experience with more advanced analyses, including pseudotime trajectory inference, cell–cell communication, and pathway or transcription factor activity analysis.",
+    "text": "Overview of Workshop\n\nOur 2025 workshop will be divided into three sessions held over the course of a week. The first session will focus on sample preparation, sequencing, and quality control techniques.\nIn the second session, participants will work with the newly generated data from session one. They will learn how to import their data into R, build and manage a Seurat object, perform cell clustering, and carry out cell-type annotation.\nThe final session will provide hands-on experience with more advanced analyses, including pseudotime trajectory inference, cell–cell communication, and pathway or transcription factor activity analysis.",
     "crumbs": [
       "Course information",
       "Overview"

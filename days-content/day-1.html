@@ -20,6 +20,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -212,6 +247,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#data-location" id="toc-data-location" class="nav-link" data-scroll-target="#data-location">Data Location</a></li>
   <li><a href="#session-objectives" id="toc-session-objectives" class="nav-link" data-scroll-target="#session-objectives">Session Objectives</a></li>
   <li><a href="#session-materials" id="toc-session-materials" class="nav-link" data-scroll-target="#session-materials">Session Materials</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
   </ul>
 </nav>
     </div>
@@ -240,9 +276,31 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="pre-reading" class="level3">
 <h3 class="anchored" data-anchor-id="pre-reading">Pre-reading</h3>
-<ul>
-<li>Link to bash loops resources</li>
-</ul>
+<p>Please review the material below if you are unfamiliar with it:</p>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>For Loops in BASH
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>In today’s session, you will be using for loops in your Bash scripts. If you aren’t familiar with them yet, here’s a quick introduction.</p>
+<p>Below is a simple example of a for loop:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> file <span class="kw">in</span> dir/<span class="pp">*</span><span class="kw">;</span> <span class="cf">do</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="bu">echo</span> <span class="st">"</span><span class="va">$file</span><span class="st">"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="cf">done</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Let’s walk through what this code is doing:</p>
+<p><strong>First line</strong>: <code>for file in dir/*; do</code> This tells Bash: “For every file in the directory dir, do the following actions.” As the loop runs, the variable <strong>file</strong> will take on the name of each file in that directory, one at a time.</p>
+<p><strong>Second line</strong>: <code>echo "$file"</code> This is the action we want to perform for each file. In this example, we’re simply printing the file’s name to the screen. In today’s session, you will be processing files using CellRanger.</p>
+<p><strong>Third line</strong>: <code>done</code> This marks the end of the loop. Once a file has been processed and the actions are completed, Bash moves on to the next file and repeats the process until all files have been handled.</p>
+</div>
+</div>
+</div>
 </section>
 <section id="data-location" class="level3">
 <h3 class="anchored" data-anchor-id="data-location">Data Location</h3>
@@ -261,6 +319,15 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><p><a href="" target="_blank">Morning Slides by Kylie Williams</a></p></li>
 <li><p><a href="https://docs.google.com/presentation/d/1ea04aS9TwBHLbUjemtqW_1T9qWOLYtCnv9h6vrHMAIk/edit?usp=sharing" target="_blank">Afternoon Slides by Hande Acar</a></p></li>
+</ul>
+</section>
+<section id="summary" class="level3">
+<h3 class="anchored" data-anchor-id="summary">Summary</h3>
+<p>This session introduces participants to the primary steps of processing 10x Genomics single-cell RNA-seq data using the Cell Ranger software suite. We begin by outlining the major stages of single-cell analysis—from handling raw FASTQ files to generating a usable gene-by-cell count matrix—and discuss the computational requirements necessary to run Cell Ranger efficiently on the OSCER high-performance computing system.</p>
+<p>Participants learn how to work with genome references (both prebuilt and custom), prepare sequencing data, and execute cellranger count to perform alignment, UMI processing, quantification, and where to find essential output files. By the end, attendees understand how to run primary analysis reproducibly on an HPC environment and are prepared for downstream secondary and tertiary analysis in R on subsequent workshop days.</p>
+<p><strong>Other helpful resources:</strong></p>
+<ul>
+<li><a href="https://www.10xgenomics.com/blog/how-single-cell-sequencing-data-analysis-works#secondary_and_tertiary_analysis" target="_blank">How single cell sequencing data analysis works</a></li>
 </ul>
 
 
