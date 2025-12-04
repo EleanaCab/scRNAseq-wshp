@@ -7,7 +7,39 @@ draft: true
 
 ### Pre-reading
 
-- Link to bash loops resources
+Please review the material below if you are unfamiliar with it:
+
+::: {.callout-note appearance="simple" collapse="true"}
+
+## For Loops in BASH
+
+In today’s session, you will be using for loops in your Bash scripts. If you aren’t familiar with them yet, here’s a quick introduction.
+
+Below is a simple example of a for loop:
+
+```{.bash}
+for file in dir/*; do
+    echo "$file"
+done
+```
+
+Let’s walk through what this code is doing:
+
+**First line**:
+`for file in dir/*; do`
+This tells Bash: “For every file in the directory dir, do the following actions.”
+As the loop runs, the variable **file** will take on the name of each file in that directory, one at a time.
+
+**Second line**:
+`echo "$file"`
+This is the action we want to perform for each file. In this example, we’re simply printing the file’s name to the screen. In today's session, you will be processing files using CellRanger. 
+
+**Third line**:
+`done`
+This marks the end of the loop. Once a file has been processed and the actions are completed, Bash moves on to the next file and repeats the process until all files have been handled.
+
+:::
+
 
 ### Data Location
 
@@ -26,3 +58,13 @@ draft: true
 - [Morning Slides by Kylie Williams](){target="_blank"} 
 
 - [Afternoon Slides by Hande Acar](https://docs.google.com/presentation/d/1ea04aS9TwBHLbUjemtqW_1T9qWOLYtCnv9h6vrHMAIk/edit?usp=sharing){target="_blank"}
+
+### Summary 
+
+This session introduces participants to the primary steps of processing 10x Genomics single-cell RNA-seq data using the Cell Ranger software suite. We begin by outlining the major stages of single-cell analysis—from handling raw FASTQ files to generating a usable gene-by-cell count matrix—and discuss the computational requirements necessary to run Cell Ranger efficiently on the OSCER high-performance computing system. 
+
+Participants learn how to work with genome references (both prebuilt and custom), prepare sequencing data, and execute cellranger count to perform alignment, UMI processing, quantification, and where to find essential output files. By the end, attendees understand how to run primary analysis reproducibly on an HPC environment and are prepared for downstream secondary and tertiary analysis in R on subsequent workshop days.
+
+**Other helpful resources:**
+
+- [How single cell sequencing data analysis works](https://www.10xgenomics.com/blog/how-single-cell-sequencing-data-analysis-works#secondary_and_tertiary_analysis){target="_blank"}

@@ -18,6 +18,8 @@ The workshop will also introduce advanced downstream analyses, including ligandâ
 
 ## Overview of Workshop
 
+![](images/content/pipeline_overview.jpg){width="500"} 
+
 Our 2025 workshop will be divided into three sessions held over the course of a week. The first session will focus on sample preparation, sequencing, and quality control techniques.
 
 In the second session, participants will work with the newly generated data from session one. They will learn how to import their data into R, build and manage a Seurat object, perform cell clustering, and carry out cell-type annotation.

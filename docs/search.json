@@ -506,7 +506,7 @@
     "href": "workshop-overview.html#overview-of-workshop",
     "title": "",
     "section": "Overview of Workshop",
-    "text": "Overview of Workshop\nOur 2025 workshop will be divided into three sessions held over the course of a week. The first session will focus on sample preparation, sequencing, and quality control techniques.\nIn the second session, participants will work with the newly generated data from session one. They will learn how to import their data into R, build and manage a Seurat object, perform cell clustering, and carry out cell-type annotation.\nThe final session will provide hands-on experience with more advanced analyses, including pseudotime trajectory inference, cell–cell communication, and pathway or transcription factor activity analysis.",
+    "text": "Overview of Workshop\n\nOur 2025 workshop will be divided into three sessions held over the course of a week. The first session will focus on sample preparation, sequencing, and quality control techniques.\nIn the second session, participants will work with the newly generated data from session one. They will learn how to import their data into R, build and manage a Seurat object, perform cell clustering, and carry out cell-type annotation.\nThe final session will provide hands-on experience with more advanced analyses, including pseudotime trajectory inference, cell–cell communication, and pathway or transcription factor activity analysis.",
     "crumbs": [
       "Course information",
       "Overview"
@@ -543,6 +543,105 @@
     "crumbs": [
       "Course information",
       "Team"
+    ]
+  },
+  {
+    "objectID": "pre-readings/day-2-pre-reading.html",
+    "href": "pre-readings/day-2-pre-reading.html",
+    "title": "Day 2 Pre-reading",
+    "section": "",
+    "text": "Seurat Tutorials\nSeurat Publication (v5)\n\n\n\nOrchestrating Single-Cell Analysis with Bioconductor\n\n\n\nggplot2\nscater\nscDblFinder\nSingleR\npheatmap\ntidyverse\ntidyverse packages",
+    "crumbs": [
+      "Pre-reading",
+      "Day 2"
+    ]
+  },
+  {
+    "objectID": "pre-readings/day-2-pre-reading.html#seurat-v5",
+    "href": "pre-readings/day-2-pre-reading.html#seurat-v5",
+    "title": "Day 2 Pre-reading",
+    "section": "",
+    "text": "Link:",
+    "crumbs": [
+      "Pre-reading",
+      "Day 2"
+    ]
+  },
+  {
+    "objectID": "pre-readings/day-3-pre-reading.html",
+    "href": "pre-readings/day-3-pre-reading.html",
+    "title": "Day 3 Pre-reading",
+    "section": "",
+    "text": "Below are the papers associated with the R packages we will be using for Day 3 of our workshop.\n\nCytoTRACE2\nCellular (Cyto) Trajectory Reconstruction Analysis using gene Counts and Expression (CytoTRACE) is an interpretable deep learning framework for predicting cellular potency and developmental potential from single-cell RNA sequencing data. It uses gene count signatures, or the correlation between gene count and gene expression levels to capture differentiation states.\nLink: Improved reconstruction of single-cell developmental potential with CytoTRACE 2\n\n\nMonocle\nMonocle’s toolkit allows for classifying and counting cells, performing differential expression analysis between subpopulations of cells, and reconstructing cellular trajectories. Its main goal is to order cells along a developmental or differentiation trajectory based on gene expression, even if the samples are just a “snapshot” in time.\nLink: The dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cells\n\n\nCellChat\nCellChat is a tool that is able to quantitatively infer and analyze intercellular communication networks from single-cell RNA-sequencing (scRNA-seq) data. CellChat predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches.\nLink: CellChat for systematic analysis of cell–cell communication from single-cell transcriptomics\n\n\nclusterProfiler\nLink: clusterProfiler: an R Package for Comparing Biological Themes Among Gene Clusters\n\n\ndecoupleR\nLink: decoupleR: ensemble of computational methods to infer biological activities from omics data Open Access",
+    "crumbs": [
+      "Pre-reading",
+      "Day 3"
+    ]
+  },
+  {
+    "objectID": "days-content/day-1.html",
+    "href": "days-content/day-1.html",
+    "title": "Day 1",
+    "section": "",
+    "text": "Pre-reading\nPlease review the material below if you are unfamiliar with it:\n\n\n\n\n\n\nFor Loops in BASH\n\n\n\n\n\nIn today’s session, you will be using for loops in your Bash scripts. If you aren’t familiar with them yet, here’s a quick introduction.\nBelow is a simple example of a for loop:\nfor file in dir/*; do\n    echo \"$file\"\ndone\nLet’s walk through what this code is doing:\nFirst line: for file in dir/*; do This tells Bash: “For every file in the directory dir, do the following actions.” As the loop runs, the variable file will take on the name of each file in that directory, one at a time.\nSecond line: echo \"$file\" This is the action we want to perform for each file. In this example, we’re simply printing the file’s name to the screen. In today’s session, you will be processing files using CellRanger.\nThird line: done This marks the end of the loop. Once a file has been processed and the actions are completed, Bash moves on to the next file and repeats the process until all files have been handled.\n\n\n\n\n\nData Location\n/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/mouse_kidney_all_cells_raw_data\n\n\nSession Objectives\n\nSet up all required R packages locally for the remainder of the workshop\nUnderstand sample preparation workflows for single-cell sequencing using different library kits\nUse CellRanger for barcode processing and UMI counting to quantify gene expression\n\n\n\nSession Materials\n\nMorning Slides by Kylie Williams\nAfternoon Slides by Hande Acar\n\n\n\nSummary\nThis session introduces participants to the primary steps of processing 10x Genomics single-cell RNA-seq data using the Cell Ranger software suite. We begin by outlining the major stages of single-cell analysis—from handling raw FASTQ files to generating a usable gene-by-cell count matrix—and discuss the computational requirements necessary to run Cell Ranger efficiently on the OSCER high-performance computing system.\nParticipants learn how to work with genome references (both prebuilt and custom), prepare sequencing data, and execute cellranger count to perform alignment, UMI processing, quantification, and where to find essential output files. By the end, attendees understand how to run primary analysis reproducibly on an HPC environment and are prepared for downstream secondary and tertiary analysis in R on subsequent workshop days.\nOther helpful resources:\n\nHow single cell sequencing data analysis works",
+    "crumbs": [
+      "Daily materials",
+      "Day 1"
+    ]
+  },
+  {
+    "objectID": "days-content/day-2.html",
+    "href": "days-content/day-2.html",
+    "title": "Day 2",
+    "section": "",
+    "text": "Before Session\n\n\n\n\n\n\nDay 1 Pre-baked Material Location\n\n\n\n\n\n/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day1/serial_CellRanger_output\n\n\n\n\nPre-lecture Reading Link for Day 2\n\n\n\nSession Objectives\n\nUnderstanding how the R package Seurat works as the core framework for:\n\nData quality checking and filtering\nIntegration across samples\nVisualization\nClustering of cells\n\nAnnotating cell using a custom atlas\n\n\n\nSession Materials\n\nMorning Slides by Lindsay Hayes\nAfternoon Slides by Lindsay Hayes\n\n\n\nBreakout Session Guides\n\nSession 1 - Seurat Creation to Normalization\nSession 2 - Dimension Reduction\nSession 3 - Integration",
+    "crumbs": [
+      "Daily materials",
+      "Day 2"
+    ]
+  },
+  {
+    "objectID": "days-content/day-3.html",
+    "href": "days-content/day-3.html",
+    "title": "Day 3",
+    "section": "",
+    "text": "Before Session\n\n\n\n\n\n\nDay 2 Pre-baked Material Location\n\n\n\n\n\n/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day2\n\n\n\n\nPre-lecture Reading Link for Day 3\n\n\n\nSession Objectives\n\nDetermining the root using Cytotrace\nPseudotime analysis using Monocle3\nCell-cell communication using CellChat\nGene set enrichment analysis (GSEA) using clusterProfiler\nPathway/transcription factor inference using decoupleR\n\n\n\nSession Materials",
+    "crumbs": [
+      "Daily materials",
+      "Day 3"
+    ]
+  },
+  {
+    "objectID": "pre-readings/day-2-pre-reading.html#seurat",
+    "href": "pre-readings/day-2-pre-reading.html#seurat",
+    "title": "Day 2 Pre-reading",
+    "section": "",
+    "text": "Seurat Tutorials\nSeurat Publication (v5)",
+    "crumbs": [
+      "Pre-reading",
+      "Day 2"
+    ]
+  },
+  {
+    "objectID": "pre-readings/day-2-pre-reading.html#bioconductor",
+    "href": "pre-readings/day-2-pre-reading.html#bioconductor",
+    "title": "Day 2 Pre-reading",
+    "section": "",
+    "text": "Orchestrating Single-Cell Analysis with Bioconductor",
+    "crumbs": [
+      "Pre-reading",
+      "Day 2"
+    ]
+  },
+  {
+    "objectID": "pre-readings/day-2-pre-reading.html#single-cell-specific-packages",
+    "href": "pre-readings/day-2-pre-reading.html#single-cell-specific-packages",
+    "title": "Day 2 Pre-reading",
+    "section": "",
+    "text": "ggplot2\nscater\nscDblFinder\nSingleR\npheatmap\ntidyverse\ntidyverse packages",
+    "crumbs": [
+      "Pre-reading",
+      "Day 2"
     ]
   }
 ]
