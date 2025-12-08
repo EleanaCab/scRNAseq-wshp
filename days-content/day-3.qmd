@@ -7,7 +7,7 @@ draft: true
 
 ### Before Session
 
-:::{.callout-note collapse="true" appearance="simple" }
+:::{.callout-note collapse="true" appearance="simple"}
 ## Day 2 Pre-baked Material Location
 `/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day2`
 :::
@@ -25,4 +25,6 @@ draft: true
 
 ### Session Materials
 
-### Summary
+- [Morning Slides by Kurt Zimmerman and Hua Zhong](https://drive.google.com/file/d/1n4NICHo4WYVSc6OHHeNaunsmMspxqFJz/view?usp=drive_link){target="_blank"} 
+
+- [Afternoon Slides by by Kurt Zimmerman and Hua Zhong](https://drive.google.com/file/d/1tjHAb6L592GHtmUvZ-zxgxY6jzqesDgT/view?usp=drive_link){target="_blank"}

@@ -1,26 +1,20 @@
 ---
 title: "Day 3 Pre-reading"
 format: html
-draft: true
+draft: false
 ---
 
-Below are the papers associated with the R packages we will be using for Day 3 of our workshop.
+Below are the papers associated with the R packages we will be using for Day 3 of the workshop.
 
 ### CytoTRACE2
- 
-Cellular (Cyto) Trajectory Reconstruction Analysis using gene Counts and Expression (CytoTRACE) is an interpretable deep learning framework for predicting cellular potency and developmental potential from single-cell RNA sequencing data. It uses gene count signatures, or the correlation between gene count and gene expression levels to capture differentiation states.
 
 Link: [Improved reconstruction of single-cell developmental potential with CytoTRACE 2](https://www.nature.com/articles/s41592-025-02857-2){target="_blank"}
 
 ### Monocle
 
-Monocle's toolkit allows for classifying and counting cells, performing differential expression analysis between subpopulations of cells, and reconstructing cellular trajectories. Its main goal is to order cells along a developmental or differentiation trajectory based on gene expression, even if the samples are just a “snapshot” in time.
-
 Link: [The dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cells](https://www.nature.com/articles/nbt.2859){target="_blank"}
 
 ### CellChat
-
-CellChat is a tool that is able to quantitatively infer and analyze intercellular communication networks from single-cell RNA-sequencing (scRNA-seq) data. CellChat predicts major signaling inputs and outputs for cells and how those cells and signals coordinate for functions using network analysis and pattern recognition approaches. 
 
 Link: [CellChat for systematic analysis of cell–cell communication from single-cell transcriptomics](https://www.nature.com/articles/s41596-024-01045-4){target="_blank"}
 

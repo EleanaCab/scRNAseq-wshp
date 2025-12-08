@@ -2,7 +2,7 @@
 title: "Day 1 "
 subtitle: “Curiosity often leads to trouble.” — Alice in Wonderland (1951 / 2010)
 format: html
-draft: true
+draft: false
 ---
 
 ### Pre-reading
@@ -57,7 +57,7 @@ This marks the end of the loop. Once a file has been processed and the actions a
 
 - [Morning Slides by Kylie Williams](){target="_blank"} 
 
-- [Afternoon Slides by Hande Acar](https://docs.google.com/presentation/d/1ea04aS9TwBHLbUjemtqW_1T9qWOLYtCnv9h6vrHMAIk/edit?usp=sharing){target="_blank"}
+- [Afternoon Slides by Hande Acar](https://drive.google.com/file/d/1vZmrPTdEKGsWZXy-TSF4ap3by_o8VFhe/view?usp=sharing){target="_blank"}  -  [Standalone Guide for Afternoon Session](day-1-resources/Day1-PM-CellRanger-standalone-guide.qmd){target="_blank"}
 
 ### Summary 
 

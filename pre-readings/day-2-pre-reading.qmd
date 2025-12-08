@@ -1,20 +1,20 @@
 ---
 title: "Day 2 Pre-reading"
 format: html
-draft: true
+draft: false
 ---
 
-# References for content covered on Day 2
+Below are the references for the content covered on Day 2 of the workshop.
 
-## Seurat
+### Seurat
 [Seurat Tutorials](https://satijalab.org/seurat/articles/get_started_v5_new)
 
 [Seurat Publication (v5)](https://www.nature.com/articles/s41587-023-01767-y)
 
-## Bioconductor
+### Bioconductor
 [Orchestrating Single-Cell Analysis with Bioconductor](https://bioconductor.org/books/release/OSCA/)
 
-## Single Cell Specific Packages
+### Single Cell Specific Packages
 [ggplot2](https://ggplot2.tidyverse.org)
 
 [scater](https://bioconductor.org/packages/release/bioc/html/scater.html)
