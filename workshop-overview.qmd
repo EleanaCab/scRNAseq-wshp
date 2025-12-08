@@ -6,7 +6,7 @@ draft: false
 
 ## Why Single Cell RNA Sequencing?
 
-You’ve probably heard of bulk RNA sequencing…but what about single-cell RNA sequencing? Chances are, you’ve heard of that too. Jokes aside, single-cell RNA-seq has quickly become one of the most powerful and widely used approaches for overcoming the limitations of bulk RNA-seq data. While the overall concept is similar, the key difference is resolution: instead of averaging signals across a mixed population, single-cell RNA-seq captures the transcriptome of every individual cell. This lets you explore cellular heterogeneity within your sample and uncover the diversity of RNA transcripts present in each cell.
+Single-cell RNA-seq has quickly become one of the most powerful and widely used approaches for overcoming the limitations of bulk RNA-seq data. While the overall concept is similar, the key difference is resolution: instead of averaging signals across a mixed population, single-cell RNA-seq captures the transcriptome of every individual cell. This lets you explore cellular heterogeneity within your sample and uncover the diversity of RNA transcripts present in each cell.
 
 ## Impact on Campus
 
@@ -18,7 +18,7 @@ The workshop will also introduce advanced downstream analyses, including ligand�
 
 ## Overview of Workshop
 
-![](images/content/pipeline_overview.jpg){width="500"} 
+![Song, C., et al. 2022 Journal of the American Society of Nephrology : JASN.](images/content/pipeline_overview.jpg){width="500" style="border: 1px solid black; border-radius: 5px;" fig-align=center} 
 
 Our 2025 workshop will be divided into three sessions held over the course of a week. The first session will focus on sample preparation, sequencing, and quality control techniques.
 
