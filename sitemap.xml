@@ -2,26 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://EleanaCab.github.io/scRNAseq-wshp/supplemental-material/additional-links.html</loc>
-    <lastmod>2025-12-04T19:49:45.367Z</lastmod>
+    <lastmod>2025-12-08T04:00:52.954Z</lastmod>
+  </url>
+  <url>
+    <loc>https://EleanaCab.github.io/scRNAseq-wshp/pre-readings/day-3-pre-reading.html</loc>
+    <lastmod>2025-12-08T04:00:52.954Z</lastmod>
   </url>
   <url>
     <loc>https://EleanaCab.github.io/scRNAseq-wshp/workshop-data.html</loc>
-    <lastmod>2025-12-04T19:49:45.367Z</lastmod>
+    <lastmod>2025-12-08T04:00:52.954Z</lastmod>
   </url>
   <url>
-    <loc>https://EleanaCab.github.io/scRNAseq-wshp/index.html</loc>
-    <lastmod>2025-12-04T19:49:45.367Z</lastmod>
-  </url>
-  <url>
-    <loc>https://EleanaCab.github.io/scRNAseq-wshp/workshop-team.html</loc>
-    <lastmod>2025-12-04T19:49:45.368Z</lastmod>
+    <loc>https://EleanaCab.github.io/scRNAseq-wshp/days-content/day-1-resources/Day1-PM-CellRanger-standalone-guide.html</loc>
+    <lastmod>2025-12-08T04:00:52.635Z</lastmod>
   </url>
   <url>
     <loc>https://EleanaCab.github.io/scRNAseq-wshp/workshop-overview.html</loc>
-    <lastmod>2025-12-04T19:49:45.367Z</lastmod>
+    <lastmod>2025-12-08T04:00:52.954Z</lastmod>
+  </url>
+  <url>
+    <loc>https://EleanaCab.github.io/scRNAseq-wshp/workshop-team.html</loc>
+    <lastmod>2025-12-08T04:00:52.954Z</lastmod>
+  </url>
+  <url>
+    <loc>https://EleanaCab.github.io/scRNAseq-wshp/index.html</loc>
+    <lastmod>2025-12-08T04:00:52.954Z</lastmod>
+  </url>
+  <url>
+    <loc>https://EleanaCab.github.io/scRNAseq-wshp/days-content/day-1.html</loc>
+    <lastmod>2025-12-08T04:00:52.643Z</lastmod>
+  </url>
+  <url>
+    <loc>https://EleanaCab.github.io/scRNAseq-wshp/pre-readings/day-2-pre-reading.html</loc>
+    <lastmod>2025-12-08T04:00:52.954Z</lastmod>
   </url>
   <url>
     <loc>https://EleanaCab.github.io/scRNAseq-wshp/workshop-prereqs.html</loc>
-    <lastmod>2025-12-04T19:49:45.367Z</lastmod>
+    <lastmod>2025-12-08T04:00:52.954Z</lastmod>
   </url>
 </urlset>
