@@ -126,7 +126,7 @@
     "href": "workshop-overview.html",
     "title": "",
     "section": "",
-    "text": "You’ve probably heard of bulk RNA sequencing…but what about single-cell RNA sequencing? Chances are, you’ve heard of that too. Jokes aside, single-cell RNA-seq has quickly become one of the most powerful and widely used approaches for overcoming the limitations of bulk RNA-seq data. While the overall concept is similar, the key difference is resolution: instead of averaging signals across a mixed population, single-cell RNA-seq captures the transcriptome of every individual cell. This lets you explore cellular heterogeneity within your sample and uncover the diversity of RNA transcripts present in each cell.",
+    "text": "Single-cell RNA-seq has quickly become one of the most powerful and widely used approaches for overcoming the limitations of bulk RNA-seq data. While the overall concept is similar, the key difference is resolution: instead of averaging signals across a mixed population, single-cell RNA-seq captures the transcriptome of every individual cell. This lets you explore cellular heterogeneity within your sample and uncover the diversity of RNA transcripts present in each cell.",
     "crumbs": [
       "Course information",
       "Overview"
@@ -137,7 +137,7 @@
     "href": "workshop-overview.html#why-single-cell-rna-sequencing",
     "title": "",
     "section": "",
-    "text": "You’ve probably heard of bulk RNA sequencing…but what about single-cell RNA sequencing? Chances are, you’ve heard of that too. Jokes aside, single-cell RNA-seq has quickly become one of the most powerful and widely used approaches for overcoming the limitations of bulk RNA-seq data. While the overall concept is similar, the key difference is resolution: instead of averaging signals across a mixed population, single-cell RNA-seq captures the transcriptome of every individual cell. This lets you explore cellular heterogeneity within your sample and uncover the diversity of RNA transcripts present in each cell.",
+    "text": "Single-cell RNA-seq has quickly become one of the most powerful and widely used approaches for overcoming the limitations of bulk RNA-seq data. While the overall concept is similar, the key difference is resolution: instead of averaging signals across a mixed population, single-cell RNA-seq captures the transcriptome of every individual cell. This lets you explore cellular heterogeneity within your sample and uncover the diversity of RNA transcripts present in each cell.",
     "crumbs": [
       "Course information",
       "Overview"
@@ -159,7 +159,7 @@
     "href": "workshop-overview.html#overview-of-workshop",
     "title": "",
     "section": "Overview of Workshop",
-    "text": "Overview of Workshop\n\nOur 2025 workshop will be divided into three sessions held over the course of a week. The first session will focus on sample preparation, sequencing, and quality control techniques.\nIn the second session, participants will work with the newly generated data from session one. They will learn how to import their data into R, build and manage a Seurat object, perform cell clustering, and carry out cell-type annotation.\nThe final session will provide hands-on experience with more advanced analyses, including pseudotime trajectory inference, cell–cell communication, and pathway or transcription factor activity analysis.",
+    "text": "Overview of Workshop\n\n\n\nSong, C., et al. 2022 Journal of the American Society of Nephrology : JASN.\n\n\nOur 2025 workshop will be divided into three sessions held over the course of a week. The first session will focus on sample preparation, sequencing, and quality control techniques.\nIn the second session, participants will work with the newly generated data from session one. They will learn how to import their data into R, build and manage a Seurat object, perform cell clustering, and carry out cell-type annotation.\nThe final session will provide hands-on experience with more advanced analyses, including pseudotime trajectory inference, cell–cell communication, and pathway or transcription factor activity analysis.",
     "crumbs": [
       "Course information",
       "Overview"
