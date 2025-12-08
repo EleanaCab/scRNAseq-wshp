@@ -55,6 +55,17 @@
     ]
   },
   {
+    "objectID": "days-content/day-2.html",
+    "href": "days-content/day-2.html",
+    "title": "Day 2",
+    "section": "",
+    "text": "Before Session\n\n\n\n\n\n\nNoteDay 2 Pre-baked Material Location\n\n\n\n\n\n/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day2/data/\n\n\n\n\n\n\n\n\n\nNoteDay 2 Scripts Location\n\n\n\n\n\n/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day2/scripts/\n\n\n\n\nPre-lecture Reading Link for Day 2\n\n\n\nSession Objectives\n\nUnderstanding how the R package Seurat works as the core framework for:\n\nData quality checking and filtering\nIntegration across samples\nVisualization\nClustering of cells\nAnnotating cell using a custom atlas\nSub-clustering of specific cell types\n\n\n\n\nSession Materials\n\nMorning Slides by Lindsay Hayes\nAfternoon Slides by Lindsay Hayes\n\n\n\nBreakout Session Guides\n\nSession 1 - Seurat Creation to Normalization\nSession 2 - Dimension Reduction\nSession 3 - Integration\nSession 4 - Cluster Markers\nSession 5 - Annotation\nSession 6 - Abundance\nSession 7 - Sub-Clustering",
+    "crumbs": [
+      "Daily materials",
+      "Day 2"
+    ]
+  },
+  {
     "objectID": "days-content/day-1-resources/Day1-PM-CellRanger-standalone-guide.html",
     "href": "days-content/day-1-resources/Day1-PM-CellRanger-standalone-guide.html",
     "title": "Cell Ranger for scRNA‑seq",
@@ -185,6 +196,17 @@
     "crumbs": [
       "Course information",
       "Schedule"
+    ]
+  },
+  {
+    "objectID": "days-content/day-3.html",
+    "href": "days-content/day-3.html",
+    "title": "Day 3",
+    "section": "",
+    "text": "Before Session\n\n\n\n\n\n\nNoteDay 2 Pre-baked Material Location\n\n\n\n\n\n/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day2\n\n\n\n\nPre-lecture Reading Link for Day 3\n\n\n\nSession Objectives\n\nDetermining the root using Cytotrace\nPseudotime analysis using Monocle3\nCell-cell communication using CellChat\nGene set enrichment analysis (GSEA) using clusterProfiler\nPathway/transcription factor inference using decoupleR\n\n\n\nSession Materials\n\nMorning Slides by Kurt Zimmerman and Hua Zhong\nAfternoon Slides by by Kurt Zimmerman and Hua Zhong",
+    "crumbs": [
+      "Daily materials",
+      "Day 3"
     ]
   },
   {
