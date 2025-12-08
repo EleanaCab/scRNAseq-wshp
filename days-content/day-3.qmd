@@ -2,7 +2,7 @@
 title: "Day 3"
 subtitle: “Hang in there. We’re almost there.” — Free Willy (1993)
 format: html
-draft: true
+draft: false
 ---
 
 ### Before Session

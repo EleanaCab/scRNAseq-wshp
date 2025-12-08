@@ -644,5 +644,16 @@
       "Daily materials",
       "Day 2"
     ]
+  },
+  {
+    "objectID": "days-content/day-3.html",
+    "href": "days-content/day-3.html",
+    "title": "Day 3",
+    "section": "",
+    "text": "Before Session\n\n\n\n\n\n\nDay 2 Pre-baked Material Location\n\n\n\n\n\n/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day2\n\n\n\n\nPre-lecture Reading Link for Day 3\n\n\n\nSession Objectives\n\nDetermining the root using Cytotrace\nPseudotime analysis using Monocle3\nCell-cell communication using CellChat\nGene set enrichment analysis (GSEA) using clusterProfiler\nPathway/transcription factor inference using decoupleR\n\n\n\nSession Materials\n\nMorning Slides by Kurt Zimmerman and Hua Zhong\nAfternoon Slides by by Kurt Zimmerman and Hua Zhong",
+    "crumbs": [
+      "Daily materials",
+      "Day 3"
+    ]
   }
 ]
