@@ -70,10 +70,6 @@ srun --partition=sooner_test --container=el9hw --cpus-per-task=2 --mem=8G --pty 
 
 <br>
 
-```{r}
-getwd()
-```
-
 ## 2. Genome References: prebuilt vs. custom
 
 ### Option A: Use a prebuilt reference (easier if exist)
@@ -356,10 +352,10 @@ echo "**** $(date) | DONE sample: $s" >> "${s}.out"
 ## Pathway to data for this workshop
 
 fastq files are under: 
-"/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/mouse_kidney_all_cells_raw_data/"  
+`"/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/mouse_kidney_all_cells_raw_data/"`  
 
 reference is under: 
-"/ourdisk/hpc/iicomicswshp/dont_archive/master_folder/omics_class_scripts/data/sc/refs/refdata-gex-mm10-2020-A"
+`"/ourdisk/hpc/iicomicswshp/dont_archive/master_folder/omics_class_scripts/data/sc/refs/refdata-gex-mm10-2020-A"`
 
 :::
 
