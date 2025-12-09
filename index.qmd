@@ -29,9 +29,9 @@ toc: false
     <tr>
     <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-1.html>Day 1</a></td>
     <td>12/09</td>
-    <td><b>Logging into OSCER, Sample Prep, and Sequencing</b> - Kylie Williams <br> <b>Cell Ranger for scRNA-seq</b> - Hande Acar</td>
+    <td><b>OMICS Sample Preparation</b> - Kylie Williams <br> <b>Cell Ranger for scRNA-seq</b> - Hande Acar</td>
     <td> No reading </td>
-    <td><a href="LINK" target="_blank">AM 📺</a> <br> <a href="https://drive.google.com/file/d/1vZmrPTdEKGsWZXy-TSF4ap3by_o8VFhe/view?usp=sharing" target="_blank">PM 📺</a> </td>
+    <td><a href="https://docs.google.com/presentation/d/1QXAN_WV27fInnk9ajhuycgxF24h4m-YEcgBapxXCEs8/edit?usp=sharing" target="_blank">AM 📺</a> <br> <a href="https://drive.google.com/file/d/1vZmrPTdEKGsWZXy-TSF4ap3by_o8VFhe/view?usp=sharing" target="_blank">PM 📺</a> </td>
     </tr>
     <tr>
     <td><a href=https://eleanacab.github.io/scRNAseq-wshp/days-content/day-2.html>Day 2</a></td>

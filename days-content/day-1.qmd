@@ -55,7 +55,7 @@ This marks the end of the loop. Once a file has been processed and the actions a
 
 ### Session Materials
 
-- [Morning Slides by Kylie Williams](){target="_blank"} 
+- [Morning Slides by Kylie Williams](https://docs.google.com/presentation/d/1QXAN_WV27fInnk9ajhuycgxF24h4m-YEcgBapxXCEs8/edit?usp=sharing){target="_blank"} 
 
 - [Afternoon Slides by Hande Acar](https://drive.google.com/file/d/1vZmrPTdEKGsWZXy-TSF4ap3by_o8VFhe/view?usp=sharing){target="_blank"}  -  [Standalone Guide for Afternoon Session](day-1-resources/Day1-PM-CellRanger-standalone-guide.qmd){target="_blank"}
 

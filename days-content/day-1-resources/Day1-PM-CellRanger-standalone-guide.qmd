@@ -62,7 +62,7 @@ We will be looking at the `count` tool of the CellRanger software to align the s
 
 To perform the next steps, we will connect to OSCER interactively, since we do not want to overload the login node and risk receiving a dreaded email from [Dr. Henry Neeman, Director of the OU Supercomputing Center for Education & Research](https://www.ou.edu/oscer/people). 
 
-```{bash}
+```{.bash}
 #| label: interactive OSCER connection
 #| eval: false
 srun --partition=sooner_test --container=el9hw --cpus-per-task=2 --mem=8G --pty bash -i
@@ -75,7 +75,7 @@ srun --partition=sooner_test --container=el9hw --cpus-per-task=2 --mem=8G --pty 
 ### Option A: Use a prebuilt reference (easier if exist)
 10x publishes prebuilt reference packages for several organisms on its [website](https://www.10xgenomics.com/support/software/cell-ranger/downloads#reference-downloads). You can simply download the latest prebuilt reference (e.g., for mouse, refdata-gex-mm10-2020-A) following the script provided below and point `--transcriptome` to that folder. For a detailed script for how that reference was built, you can follow [the build steps](https://www.10xgenomics.com/support/software/cell-ranger/downloads/cr-ref-build-steps) on the 10 website for the references.
 
-```{bash}
+```{.bash}
 #| label: unpack-prebuilt-ref
 #| eval: false
 # Downloading refdata-gex-mm10-2020-A.tar.gz from 10x website
@@ -90,7 +90,7 @@ ls -1 ~/refs/refdata-gex-mm10-2020-A
 ### Option B: Build a custom reference with `mkref`
 Build a custom reference if you need non‑standard genomes, extra genes (e.g., reporters), or to align with a specific [Ensembl/GENCODE](https://useast.ensembl.org/index.html) release. You need the reference genome for your organism in FASTA format and the transcript annotation file in GTF format. As an example, see the code below for the human reference genome release 110 on Ensembl. You can also check the instructions given on 10X website to [build custom reference](https://www.10xgenomics.com/support/software/cell-ranger/latest/analysis/inputs/cr-3p-references) for more details. 
 
-```{bash}
+```{.bash}
 #| label: get-ensembl-hg38
 #| eval: false
 # Example: set your Ensembl release and target directory
@@ -121,7 +121,7 @@ gunzip -f Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz
 
 **Optional but recommended:** 10x recommends filtering the GTF file so that it contains only gene categories of interest by using the `cellranger mkgtf` tool. Which genes to filter depends on your research question. Note that Cell Ranger does not use reads that map to multiple genes for expression (UMI) counting, so having overlapping genes in your reference will result in ignored reads. This filtering is recommended to avoid multi‑mapping from non‑polyA/non‑coding features. 10x demonstrates this with [`cellranger mkgtf`](https://www.10xgenomics.com/support/software/cell-ranger/latest/analysis/inputs/cr-3p-references#filter-with-mkgtf-f4a9b6):
 
-```{bash}
+```{.bash}
 #| label: mkgtf-filter
 #| eval: false
 # Filter the gtf file to contain only protein coding exons:
@@ -152,7 +152,7 @@ Now we can create the Cell Ranger reference (this will produce a folder you pass
 Indexing a typical human 3Gb FASTA file often takes up to 8 core hours and requires 32 GB of memory.
 
 
-```{bash}
+```{.bash}
 #| label: mkref-human
 #| eval: false
 cellranger mkref \
@@ -174,7 +174,7 @@ Lane‑less names like `Sample_S1_R1_001.fastq.gz` are also accepted (v4+).
 
 Below is a  template for a single‑sample run. For more information about `cellranger count` function check [10x website](https://www.10xgenomics.com/support/software/cell-ranger/latest/tutorials/cr-tutorial-ct).
 
-```{bash}
+```{.bash}
 #| label: count-template
 #| eval: false
 
@@ -263,7 +263,7 @@ For a more detailed explanation on the interpretation of web summary files see [
 ## 6. Running CellRanger over OSCER using scheduler 
 
 Connecting to OSCER:
-```{bash}
+```{.bash}
 #| label: connect to OSCER
 #| eval: false
 # Log into OSCER HPC using your username and password
@@ -274,7 +274,7 @@ el9
 
 You should never run a program over the login node, that may cause the login node to crash and cause your and other researchers' runs to fail. We are doing this only to verify proper installation and functioning of CellRanger on OSCER HPC. It's always a good idea to check every component of your run before you put your sbatch file together. 
 
-```{bash}
+```{.bash}
 #| label: check-versions
 #| eval: false
 #| 
@@ -293,7 +293,7 @@ To run a software on OSCER we need to submit our jobs over a workload manager ca
 
 #### Batch Jobs
 
-```{bash}
+```{.bash}
 #| label: writing batch jobs
 #| eval: false
 
@@ -362,7 +362,7 @@ reference is under:
 ::: {.callout-note collapse="true"}
 ## Running samples serially
 
-```{bash}
+```{.bash}
 #| label: writing batch jobs for serial runs
 #| eval: false
 
