@@ -55,6 +55,8 @@ website:
         contents:
           - href: supplemental-material/additional-links.qmd
             text: Additional Resources
+          - href: supplemental-material/install-packages.qmd
+            text: Install Packages Script
 
 format:
   html:

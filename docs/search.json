@@ -655,5 +655,16 @@
       "Daily materials",
       "Day 3"
     ]
+  },
+  {
+    "objectID": "supplemental-material/install-packages.html",
+    "href": "supplemental-material/install-packages.html",
+    "title": "Install Packages Script",
+    "section": "",
+    "text": "# R Packages needed for the 2025 Omics Workshop Day 2\n\n# if asked to update: n     DO NOT DO IT --- JUST SAY NO. If you get an error then we can fix it\n# if asked if you want to install from source: Yes\n# if asked to install additional tools say yes!\n\n\n# CRAN\ninstall.packages(\"here\")\ninstall.packages(\"pheatmap\")\ninstall.packages(\"dplyr\")\ninstall.packages(\"ggplot2\")\ninstall.packages(\"patchwork\")\ninstall.packages(\"dplyr\")\ninstall.packages(\"tibble\")\ninstall.packages(\"tidyr\")\ninstall.packages(\"devtools\")\ninstall.packages(\"remotes\")\ninstall.packages(\"Seurat\")\n\n\n# Bioconductor # R 4.5 or newer\n\ninstall.packages(\"BiocManager\")\nBiocManager::install(\"SingleR\")\nBiocManager::install(\"scater\")\nBiocManager::install(\"scDblFinder\")\nBiocManager::install(\"clusterProfiler\") # needs fgsea\nBiocManager::install(\"pathview\")\nBiocManager::install(\"enrichplot\")\nBiocManager::install(\"decoupleR\")\n\n\n# github install\nremotes::install_github('satijalab/seurat-wrappers')\ndevtools::install_github(\"digitalcytometry/cytotrace2\", subdir = \"cytotrace2_r\")\n\n\n\n# needs tools install\ndevtools::install_github(\"immunogenomics/presto\") # requires software installation for mac, optional package\ndevtools::install_github(\"jinworks/CellChat\") # requries tools installation for mac\n\n\n# codependencies for monocle3\nBiocManager::install(c('BiocGenerics', 'DelayedArray', 'DelayedMatrixStats',\n                       'limma', 'lme4', 'S4Vectors', 'SingleCellExperiment',\n                       'SummarizedExperiment', 'batchelor', 'HDF5Array',\n                       'ggrastr'))\n\nremotes::install_github(\"bnprks/BPCells/r\")\ndevtools::install_github('cole-trapnell-lab/monocle3')\n\n\n# Check install\nlibrary(here)\nlibrary(pheatmap)\nlibrary(dplyr)\nlibrary(ggplot2)\nlibrary(patchwork)\nlibrary(dplyr)\nlibrary(tibble)\nlibrary(tidyr)\nlibrary(devtools)\nlibrary(remotes)\nlibrary(Seurat)\nlibrary(SingleR)\nlibrary(scater)\nlibrary(scDblFinder)\nlibrary(clusterProfiler)\nlibrary(pathview)\nlibrary(enrichplot)\nlibrary(decoupleR)\nlibrary(SeuratWrappers)\nlibrary(presto)\nlibrary(CellChat)\nlibrary(CytoTRACE2)\nlibrary(monocle3)",
+    "crumbs": [
+      "Supplemental notes",
+      "Install Packages Script"
+    ]
   }
 ]

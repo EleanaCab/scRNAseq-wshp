@@ -1,0 +1,87 @@
+---
+title: "Install Packages Script"
+format: html
+---
+
+```{.r}
+# R Packages needed for the 2025 Omics Workshop Day 2
+
+# if asked to update: n     DO NOT DO IT --- JUST SAY NO. If you get an error then we can fix it
+# if asked if you want to install from source: Yes
+# if asked to install additional tools say yes!
+
+
+# CRAN
+install.packages("here")
+install.packages("pheatmap")
+install.packages("dplyr")
+install.packages("ggplot2")
+install.packages("patchwork")
+install.packages("dplyr")
+install.packages("tibble")
+install.packages("tidyr")
+install.packages("devtools")
+install.packages("remotes")
+install.packages("Seurat")
+
+
+# Bioconductor # R 4.5 or newer
+
+install.packages("BiocManager")
+BiocManager::install("SingleR")
+BiocManager::install("scater")
+BiocManager::install("scDblFinder")
+BiocManager::install("clusterProfiler") # needs fgsea
+BiocManager::install("pathview")
+BiocManager::install("enrichplot")
+BiocManager::install("decoupleR")
+
+
+# github install
+remotes::install_github('satijalab/seurat-wrappers')
+devtools::install_github("digitalcytometry/cytotrace2", subdir = "cytotrace2_r")
+
+
+
+# needs tools install
+devtools::install_github("immunogenomics/presto") # requires software installation for mac, optional package
+devtools::install_github("jinworks/CellChat") # requries tools installation for mac
+
+
+# codependencies for monocle3
+BiocManager::install(c('BiocGenerics', 'DelayedArray', 'DelayedMatrixStats',
+                       'limma', 'lme4', 'S4Vectors', 'SingleCellExperiment',
+                       'SummarizedExperiment', 'batchelor', 'HDF5Array',
+                       'ggrastr'))
+
+remotes::install_github("bnprks/BPCells/r")
+devtools::install_github('cole-trapnell-lab/monocle3')
+
+
+# Check install
+library(here)
+library(pheatmap)
+library(dplyr)
+library(ggplot2)
+library(patchwork)
+library(dplyr)
+library(tibble)
+library(tidyr)
+library(devtools)
+library(remotes)
+library(Seurat)
+library(SingleR)
+library(scater)
+library(scDblFinder)
+library(clusterProfiler)
+library(pathview)
+library(enrichplot)
+library(decoupleR)
+library(SeuratWrappers)
+library(presto)
+library(CellChat)
+library(CytoTRACE2)
+library(monocle3)
+```
+
+
