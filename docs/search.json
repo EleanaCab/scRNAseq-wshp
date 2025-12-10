@@ -650,7 +650,7 @@
     "href": "days-content/day-3.html",
     "title": "Day 3",
     "section": "",
-    "text": "Before Session\n\n\n\n\n\n\nDay 2 Pre-baked Material Location\n\n\n\n\n\n/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day2\n\n\n\n\nPre-lecture Reading Link for Day 3\n\n\n\nSession Objectives\n\nDetermining the root using Cytotrace\nPseudotime analysis using Monocle3\nCell-cell communication using CellChat\nGene set enrichment analysis (GSEA) using clusterProfiler\nPathway/transcription factor inference using decoupleR\n\n\n\nSession Materials\n\nMorning Slides by Kurt Zimmerman and Hua Zhong\nAfternoon Slides by by Kurt Zimmerman and Hua Zhong",
+    "text": "Before Session\n\n\n\n\n\n\nDay 3 Pre-baked Material\n\n\n\n\n\n\nLocations\nData: /ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day3/data\nScripts: /ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day3/scripts\n\n\nSCP Reminder\nData: scp -r OSCER_USERNAME@sooner.oscer.ou.edu:'/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day3/data' LOCAL_PATH\nScripts: scp -r OSCER_USERNAME@sooner.oscer.ou.edu:'/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day3/scripts' LOCAL_PATH\n\n\n\n\n\nPre-lecture Reading Link for Day 3\n\n\n\nSession Objectives\n\nDetermining the root using Cytotrace\nPseudotime analysis using Monocle3\nCell-cell communication using CellChat\nGene set enrichment analysis (GSEA) using clusterProfiler\nPathway/transcription factor inference using decoupleR\n\n\n\nSession Materials\n\nMorning Slides by Kurt Zimmerman and Hua Zhong\nAfternoon Slides by by Kurt Zimmerman and Hua Zhong",
     "crumbs": [
       "Daily materials",
       "Day 3"
@@ -665,6 +665,17 @@
     "crumbs": [
       "Supplemental notes",
       "Install Packages Script"
+    ]
+  },
+  {
+    "objectID": "days-content/day-3.html#scp-reminder",
+    "href": "days-content/day-3.html#scp-reminder",
+    "title": "Day 3",
+    "section": "",
+    "text": "Data: scp -r OSCER_USERNAME@sooner.oscer.ou.edu:'/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day3/data' LOCAL_PATH\nScripts: scp -r OSCER_USERNAME@sooner.oscer.ou.edu:'/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day3/scripts' LOCAL_PATH",
+    "crumbs": [
+      "Daily materials",
+      "Day 3"
     ]
   }
 ]

@@ -8,8 +8,20 @@ draft: false
 ### Before Session
 
 :::{.callout-note collapse="true" appearance="simple"}
-## Day 2 Pre-baked Material Location
-`/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day2`
+## Day 3 Pre-baked Material
+### Locations
+Data:
+`/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day3/data`
+
+Scripts:
+`/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day3/scripts`
+
+### SCP Reminder
+Data:
+`scp -r OSCER_USERNAME@sooner.oscer.ou.edu:'/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day3/data' LOCAL_PATH`
+
+Scripts:
+`scp -r OSCER_USERNAME@sooner.oscer.ou.edu:'/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day3/scripts' LOCAL_PATH`
 :::
 
 - [Pre-lecture Reading Link for Day 3](https://eleanacab.github.io/scRNAseq-wshp/pre-readings/day-3-pre-reading.html){target="_blank"} 
