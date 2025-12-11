@@ -9,18 +9,31 @@ draft: false
 
 :::{.callout-note collapse="true" appearance="simple"}
 ## Day 3 Pre-baked Material
+
 ### Locations
-Data:
+
+#####  Prebaked from Day 2:
+`/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day2/data/prebaked`
+
+#####  Data:
 `/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day3/data`
 
-Scripts:
+##### Scripts:
 `/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day3/scripts`
 
 ### SCP Reminder
-Data:
+##### Prebaked from Day 2: 
+
+**If you have this from Day 2 you do not need to download again**
+
+`scp -r OSCER_USERNAME@sooner.oscer.ou.edu:'/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day2/data/prebaked' LOCAL_PATH`
+
+##### Data:
+
 `scp -r OSCER_USERNAME@sooner.oscer.ou.edu:'/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day3/data' LOCAL_PATH`
 
-Scripts:
+##### Scripts:
+
 `scp -r OSCER_USERNAME@sooner.oscer.ou.edu:'/ourdisk/hpc/iicomicswshp/dont_archive/omics_workshop_2025/day3/scripts' LOCAL_PATH`
 :::
 
