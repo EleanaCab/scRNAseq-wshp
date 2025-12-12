@@ -13,3 +13,7 @@ This page includes useful links to materials that support different parts of the
 ### Clustering
 
 - [Understanding UMAP](https://pair-code.github.io/understanding-umap/){target="_blank"}
+
+### SCP Guide
+
+Link: [SCP Guide by Lindsay Hayes](https://docs.google.com/document/d/1H-Cyuw8w8XYw9QwuYV0vjfUaxsJTSppxzt8oIoJfgMo/edit?usp=sharing){target="_blank"}
